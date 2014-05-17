@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05a3812c-431a-496d-b204-7aa5c9d57806" name="Default" comment="commiting settings">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Procfile.txt" afterPath="$PROJECT_DIR$/Procfile" />
+    <list default="true" id="05a3812c-431a-496d-b204-7aa5c9d57806" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="redalert.iws" />
@@ -467,7 +466,11 @@
       <created>1400335751200</created>
       <updated>1400335751200</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="commiting settings">
+      <created>1400336764252</created>
+      <updated>1400336764252</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
