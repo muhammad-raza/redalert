@@ -2,21 +2,19 @@ package uk.org.redalert.dbmapping;
 
 import javax.persistence.*;
 @Entity
-@Table(name = "user")
+@Table(name = "users")
 public class UserEntity {
-
     @Id
-    @Column(name="user_id")
-    @GeneratedValue
+    @Column(name="id")
     private int id;
 
-    @Column(name="email")
+    @Column(name="username")
     private String email;
 
     @Column(name="password")
     private String password;
 
-    @Column(name="active")
+    @Column(name="activated")
     private int active;
 
     @Column(name="token")
