@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05a3812c-431a-496d-b204-7aa5c9d57806" name="Default" comment="commiting settings">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/uk/org/redalert/application/ApplicationProperties.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_2_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__postgresql_postgresql_9_1_901_jdbc4.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_6.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/uk/org/redalert/configuration/ApplicationProperties.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/uk/org/redalert/configuration/ApplicationConfiguration.java" afterPath="$PROJECT_DIR$/src/main/java/uk/org/redalert/configuration/ApplicationConfiguration.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/uk/org/redalert/configuration/ApplicationStarter.java" afterPath="$PROJECT_DIR$/src/main/java/uk/org/redalert/configuration/ApplicationStarter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/uk/org/redalert/dbmapping/UserEntity.java" afterPath="$PROJECT_DIR$/src/main/java/uk/org/redalert/dbmapping/UserEntity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/redalert.iml" afterPath="$PROJECT_DIR$/redalert.iml" />
+    <list default="true" id="05a3812c-431a-496d-b204-7aa5c9d57806" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="redalert.iws" />
@@ -77,10 +65,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ApplicationStarter.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ApplicationStarter.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/uk/org/redalert/configuration/ApplicationStarter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
+            <state vertical-scroll-proportion="0.28235295" vertical-offset="0" max-vertical-offset="425">
               <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -89,10 +77,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ApplicationProperties.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ApplicationProperties.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/uk/org/redalert/application/ApplicationProperties.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.49411765" vertical-offset="0" max-vertical-offset="915">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="915">
               <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -654,12 +642,16 @@
       <created>1400336764252</created>
       <updated>1400336764252</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="connected to database">
+      <created>1400444308646</created>
+      <updated>1400444308646</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="22" width="1277" height="774" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3020528" sideWeight="0.49878544" order="8" side_tool="false" content_ui="tabs" />
@@ -698,7 +690,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="commiting settings" />
-    <option name="LAST_COMMIT_MESSAGE" value="commiting settings" />
+    <MESSAGE value="connected to database" />
+    <option name="LAST_COMMIT_MESSAGE" value="connected to database" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -967,16 +960,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/uk/org/redalert/configuration/ApplicationStarter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/uk/org/redalert/configuration/ApplicationConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.3076925" vertical-offset="747" max-vertical-offset="1620">
@@ -999,7 +982,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/uk/org/redalert/application/ApplicationProperties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49411765" vertical-offset="0" max-vertical-offset="915">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="915">
           <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1009,6 +992,16 @@
             <element signature="e#696#697#0" expanded="true" />
             <element signature="e#728#729#0" expanded="true" />
             <element signature="e#756#757#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/uk/org/redalert/configuration/ApplicationStarter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28235295" vertical-offset="0" max-vertical-offset="425">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
