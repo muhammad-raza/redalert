@@ -1,6 +1,5 @@
 package uk.org.redalert.configuration;
 
-import org.apache.commons.lang.StringUtils;
 import uk.org.redalert.application.ApplicationProperties;
 
 public class ApplicationStarter {
