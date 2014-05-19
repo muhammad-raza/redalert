@@ -6,11 +6,11 @@ public class ApplicationStarter {
 
     public static void main(String args[]) throws Exception{
         String port = ApplicationProperties.PORT.getValue();
-        new JettyServer(Integer.valueOf(port), getContextPath()).startJetty();
+        new JettyServer(Integer.valueOf(port), getPathToApp()).startJetty();
 
     }
 
-    private static String getContextPath(){
+    private static String getPathToApp(){
         return "src/main/webapp";
     }
 }
