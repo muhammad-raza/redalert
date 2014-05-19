@@ -9,7 +9,6 @@ import uk.org.redalert.dbmapping.UserEntity;
 import uk.org.redalert.userdao.UserDAO;
 
 @Controller
-@RequestMapping(value = "/*", method = RequestMethod.GET)
 public class BookController {
     private final String INDEX = "index";
     private final String PAGE_NAME = "pageName";
@@ -17,7 +16,7 @@ public class BookController {
     @Autowired
     private UserDAO userDAO;
 
-    @RequestMapping(method = RequestMethod.GET)
+    @RequestMapping(value = "/", method = RequestMethod.GET)
     public String homeController(ModelMap map) {
         map.addAttribute("user", new UserEntity());
         map.addAttribute("userList", userDAO.getAllUsers());
@@ -48,13 +47,12 @@ public class BookController {
         map.addAttribute(PAGE_NAME, "reviews.jsp");
         return INDEX;
     }
-//
-//    @RequestMapping(value = "/request_test", method = RequestMethod.GET)
-//    public String requestTestController(ModelMap map) {
-//        map.addAttribute(PAGE_NAME, "request_test.jsp");
-//        return INDEX;
-//    }
-//
+
+    @RequestMapping(value = "/request_test", method = RequestMethod.GET)
+    public String requestTestController(ModelMap map) {
+        map.addAttribute(PAGE_NAME, "request_test.jsp");
+        return INDEX;
+    }
 
     public void setUserDAO(UserDAO stockDAO) {
         this.userDAO = stockDAO;
