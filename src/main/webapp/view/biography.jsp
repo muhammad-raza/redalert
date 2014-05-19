@@ -1,4 +1,4 @@
-<h2>This book is dedicated to the memory of MATTHEW COOPER</h2>
+<h2>About the Author</h2>
 <div class="john_image" >
     <img src="/images/people/john_cusack.png">
 </div>
