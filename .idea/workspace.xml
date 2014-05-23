@@ -12,6 +12,7 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/uk/org/redalert/configuration/newrelic/newrelic.jar" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/uk/org/redalert/configuration/newrelic/newrelic.yml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/uk/org/redalert/configuration/newrelic/nrcerts" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="redalert.iws" />
     <ignored path=".idea/workspace.xml" />
