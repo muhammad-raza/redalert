@@ -1,7 +1,7 @@
 @media screen and (max-width: 600px){
     
     body{
-    	font-size: 12px;
+    	font-size: 14px;
     }
     h2{
         font-size: 1em;
@@ -14,8 +14,8 @@
         display: none;
     }
     .main_heading {    	
-    	letter-spacing: 8px;
-    	font-size: 18px;
+        background-size: 150px auto; 
+        height: 35px
     }
     .main_heading_desc {
     	padding-bottom: 15px;
@@ -63,6 +63,7 @@
         width: 100%;
     } 
     .book_image, .methew_image, .john_image{  
+        width: 100%;
         margin: 0;         
         text-align: center;
         float: none;
@@ -75,5 +76,9 @@
     }
     .review {
         margin-bottom: 10px;
+    }
+    .button.read_online {
+        height: 30px;
+        line-height: 30px;
     }
 }

@@ -1,56 +1,8 @@
 <h2>Money Laundering Cases and Materials</br>for Money Laundering Prevention Professionals 2014 Edition - Issue 1</h2>
 
-
-<div class="book_image" >
-    <div class="button buy_now">BUY NOW FOR &pound;100</div>
-    <div id="book">
-        <div></div>
-
-        <div class="left_page_0"></div>
-        <div class="right_page_0"></div>
-
-        <div class="left_page_1"></div> 
-        <div class="right_page_2"></div>  
-
-        <div class="left_page_3"></div>   
-        <div class="right_page_4"></div>
-
-        <div class="left_page_5"></div> 
-        <div class="right_page_6"></div>
-
-        <div class="left_page_7"></div>   
-        <div class="right_page_8"></div>
-
-        <div class="left_page_9"></div>   
-        <div class="right_page_10"></div>
-
-        <div class="left_page_11"></div>   
-        <div class="right_page_12"></div>
-
-        <div class="left_page_13"></div>   
-        <div class="right_page_14"></div>
-
-        <div class="left_page_15"></div>   
-        <div class="right_page_16"></div>
-
-        <div class="left_page_17"></div>   
-        <div class="right_page_18"></div>
-
-        <div class="left_page_19"></div>   
-        <div class="right_page_20"></div>
-
-        <div class="left_page_21"></div>   
-        <div class="right_page_22"></div>
-
-        <div class="left_page_23"></div>   
-        <div class="right_page_24"></div>
-
-        <div class="left_page_25"></div>   
-        <div class="right_page_26"></div>
-
-        <div class="left_page_27"></div>   
-
-    </div>
+<div class="book_image">
+    <img class="the_book_image" src="/images/the_book.png">
+    <a class="button read_online" ontouchstart="" href="#"><span>Read Online</span></a>
 </div>
 
 <p>This Book is intended to serve as a comprehensive source of information for money laundering professionals that wish to better understand, establish or improve their money laundering, terrorist financing, fraud, sanctions, bribery and corruption prevention frameworks (hereafter referred to as money laundering). These issues are of utmost importance and increasingly so, as the international community is relying on money laundering professionals to assist in successfully preventing, detecting and reporting money laundering in order to fight the devastating economic and social consequences of these criminal activities.</p>
@@ -89,5 +41,6 @@ a hundred battles. If you know yourself but not the enemy, for every victory gai
         <div>Head Belgian FIU and Former Chair until 2013 of the Egmont Group of Financial Intelligence Units</div>
     </div>
 </div>
-
-<a href="/book_reviews" class="button">More&hellip;</a>
+<div class="more">
+    <a href="/book_reviews" ontouchstart="" class="button"><span>More&hellip;</span></a>
+</div>  

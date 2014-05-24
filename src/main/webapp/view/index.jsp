@@ -9,40 +9,35 @@
     <link rel="stylesheet" type="text/css" href="/style/mobile_style.css">
     <link rel="icon" type="image/png" href="/images/book_favicon.png" />
 
-    <script src="/js/jquery.js"></script>
-    <script src="/js/turn.js"></script>
-    <script src="/js/turn_responsive.js"></script>
+    
+    <script src="/js/pdf.js"></script>
+    <script>
+        PDFJS.workerSrc = '/js/pdf.worker.js';
+    </script>
+    <script src="/js/jquery.js"></script>        
     <script src="/js/main.js"></script>
+    <!-- // <script src="/js/turn.js"></script>     -->
+    <!-- // <script src="/js/turn_responsive.js"></script> -->
     
     <title>Red Alert</title>
 </head>
 <body>
-<div id="container">
-
-    <div class="login_container">
-        <form>
-            <input type="text" name="email" value="" placeholder="Email address" maxlength="30"/>
-            <input type="password" name="password" placeholder="password" value=""/>
-            <input class="button" type="submit" value="Login"/>
-            <span>&nbsp;or&nbsp;</span>
-            <span href="#" class="button register">Register</span>
-        </form>
-    </div>
-
+<div id="container">    
+<!-- <iframe src="http://docs.google.com/gview?url=http://localhost:5000/pdf/redalert.pdf&embedded=true" style="width:718px; height:700px;" frameborder="0"></iframe> -->
     <div class="mobile_menu">
         <div class="mobile_menu_button"></div>
     </div>
 
     <div class="upper_body">
-        <a href="/"><div class="main_heading">RED ALERT</div></a>
+        <a href="/"><div class="main_heading"></div></a>
         <div class="main_heading_desc">Money Laundering Cases and Materials </br> by John Cusack</div>
-        <div class="signIn hidden"><a class="anim" href="/secure/signin">Sign In / Register</a></div>
+        <!-- <div class="signIn hidden"><a class="anim" href="/secure/signin">Sign In / Register</a></div> -->
     </div>
 
     <div class="body_container">
         <div class="left_nav">
             <ul>
-                <li><a href="/">Buy The Book</a></li>
+                <li><a href="/">Read The Book</a></li>
                 <li><a href="/biography">About the author</a></li>
                 <li><a href="/matthew_cooper">Dedication to Matthew cooper</a></li>
                 <!-- <li><a href="/table_of_contents">Table of contents</a>
@@ -60,7 +55,7 @@
                         <li><a href="/table_of_contents#enforcement_cases">Enforcement Cases</a></li>
                     </ul>
                 </li>        -->          
-                <li><a href="/request_test">Request Test</a></li>
+                <!-- <li><a href="/request_test">Request Test</a></li> -->
                 <li><a href="/book_reviews">Book Reviews</a></li>
             </ul>
         </div>
@@ -69,8 +64,18 @@
             <jsp:include page="${pageName}" />            
         </div>
     
-</div>
+    </div>
 
+</div>
+<div class="book_gallery_container">
+    <div class="book_gallery">
+        <canvas id="canvas"></canvas>
+    <div class="nav">        
+        <div class="left"><span class="left_chevron"></span></div>
+        <div class="right"><span class="right_chevron"></span></div>
+        <span class="close"></span>
+    </div>
+    </div>
 </div>
     <!-- <footer> -->
 
