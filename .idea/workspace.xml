@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05a3812c-431a-496d-b204-7aa5c9d57806" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/images/the_book.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/the_book.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/images/people/alexander_karrer.gif" afterPath="$PROJECT_DIR$/src/main/webapp/images/people/alexander_karrer.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/images/people/andrew_williams.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/images/people/andrew_williams.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/images/people/b_v.JPG" afterPath="$PROJECT_DIR$/src/main/webapp/images/people/b_v.JPG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/images/people/eoin.JPG" afterPath="$PROJECT_DIR$/src/main/webapp/images/people/eoin.JPG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/images/people/kevin_ford.JPG" afterPath="$PROJECT_DIR$/src/main/webapp/images/people/kevin_ford.JPG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/images/people/lord_james.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/people/lord_james.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/images/people/marc_cohen.jpeg" afterPath="$PROJECT_DIR$/src/main/webapp/images/people/marc_cohen.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/images/people/markus_schulz.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/images/people/markus_schulz.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/images/people/noel_campbell.png" afterPath="$PROJECT_DIR$/src/main/webapp/images/people/noel_campbell.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/images/people/sally_scutt.jpeg" afterPath="$PROJECT_DIR$/src/main/webapp/images/people/sally_scutt.jpeg" />
     </list>
     <ignored path="redalert.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -113,7 +121,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kevin_ford.JPG" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="kevin_ford.JPG" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/images/people/kevin_ford.JPG">
           <provider selected="true" editor-type-id="images">
             <state />
@@ -127,7 +135,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="the_book.png" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="the_book.png" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/images/the_book.png">
           <provider selected="true" editor-type-id="images">
             <state />
@@ -1100,17 +1108,17 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/people/kevin_ford.JPG">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/images/people/heidi_suila.JPG">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/images/the_book.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/images/people/kevin_ford.JPG">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
