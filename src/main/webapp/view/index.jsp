@@ -68,7 +68,8 @@
 
 </div>
 <div class="book_gallery_container">
-    <div class="book_gallery">
+    <img class="loading" src="/images/loading.gif">
+    <div class="book_gallery">        
         <canvas id="canvas"></canvas>
     <div class="nav">        
         <div class="left"><span class="left_chevron"></span></div>

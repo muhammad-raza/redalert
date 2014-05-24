@@ -400,6 +400,14 @@ input[type="text"], input[type="password"]{
     border-radius: 50px;
 
 }
+.loading{    
+    width: 80px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center center;
+    top: 40%;
+    left: 45%;
+}
 footer {
     height: 300px;
     border-top: solid 2px #e5e5e5;

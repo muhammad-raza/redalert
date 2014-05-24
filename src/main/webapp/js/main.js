@@ -8,8 +8,9 @@ $(function(){
 	$('.right_hand_side').fadeIn(500).css("display","inline-block");
 	// turn.init('book');
 
-	function openBook(page){
-		currentPage = page || 1		
+	function openBook(page){		
+		currentPage = page || 1;
+		clearCanvas();
 		renderPDF(currentPage);
 		$('.left').data('page', currentPage-1);
 		$('.right').data('page', currentPage+1);		
@@ -79,8 +80,10 @@ $(function(){
 		});
 	}
 
-	function clearCanvas(pageNum){
-		context.clearRect(0,0,canvas.width, canvas.height)
+	function clearCanvas(){
+		if (context){
+			context.clearRect(0,0,canvas.width, canvas.height)
+		}
 	}
 
 
