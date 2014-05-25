@@ -38,21 +38,9 @@
 	</div>
 </div>
 
-<div class="review">
-	<div><img class="comma_open" src="/images/comma_open.png">A remarkable accomplishment. An expansive compendium of AML materials that will provide a very helpful resource for industry professionals and academics alike.<img class="comma_close" src="/images/comma_close.png"></div>
-	
-	<div class="review_info">
-		<a href="http://www.linkedin.com/pub/eoin-o-shea/8/118/a53"><img class="review_img" src="../images/people/eoin.JPG"></a>
-		<div class="name_info">
-			<a href="http://www.linkedin.com/pub/eoin-o-shea/8/118/a53">Eoin O'Shea</a>
-			<div>Chief Central Compliance Officer, Credit Suisse</div>
-		</div>
-	</div>
-</div>
-
 
 <div class="review">
-	<div><img class="comma_open" src="/images/comma_open.png">"John Cusack's Red Alert” deserves to become the global standard textbook on AML and CFT for banking practitio ners, compliance officers as well as regulators and academics. This is the first publication on the subject written by a true professional and experienced senior AML responsible. John's "Red Alert" accumulates the collective knowledge of some the best compliance officers of our generation. Reflecting 18 years of professional insight and responsibility the book can give profound and practical guidance to experts and shared experience to new joiners. The collection of facts and cases is unique. Everybody should read the introductory five recommendations to "Effectively" combat Money Laundering which sounds like John's message that if we want to win the fight against financial crime all of us have to think about and decide on fundamental changes to the current approach which has come to its limits and, at least partially, failed to achieve what it was originally intended for. Time has come for unbiased reviews and to develop a far more integrated approach. This core message alone and the considerations and facts that lead to it make this book compulsory reading for all those who count in the industry. A great achievement. Congratulations.<img class="comma_close" src="/images/comma_close.png"></div>
+	<div><img class="comma_open" src="/images/comma_open.png">"John Cusack's Red Alert" deserves to become the global standard textbook on AML and CFT for banking practitioners compliance officers as well as regulators and academics. This is the first publication on the subject written by a true professional and experienced senior AML responsible. John's "Red Alert" accumulates the collective knowledge of some the best compliance officers of our generation. Reflecting 18 years of professional insight and responsibility the book can give profound and practical guidance to experts and shared experience to new joiners. The collection of facts and cases is unique. Everybody should read the introductory five recommendations to "Effectively" combat Money Laundering which sounds like John's message that if we want to win the fight against financial crime all of us have to think about and decide on fundamental changes to the current approach which has come to its limits and, at least partially, failed to achieve what it was originally intended for. Time has come for unbiased reviews and to develop a far more integrated approach. This core message alone and the considerations and facts that lead to it make this book compulsory reading for all those who count in the industry. A great achievement. Congratulations.<img class="comma_close" src="/images/comma_close.png"></div>
 
 	<div class="review_info">
 		<a href="http://www.baselgovernance.org/big/foundation-board/hans-peter-bauer/"><img class="review_img" src="../images/people/hans_peter.jpg"></a>
@@ -126,18 +114,15 @@
 <div class="review">
 	<div><img class="comma_open" src="/images/comma_open.png">John Cusack has been at the leading edge of the banking industry's anti-money laundering agenda for well over a decade. He has compiled here a comprehensive picture of the legislative and regulatory history and international standards that have brought us to where we are today, along with subject matter analysis of cases, typologies, enforcements, and perpetrators. In all this is the 'must have' compendium for anyone constructing or assessing their AML programme, and is a fitting and worthy tribute to Matt Cooper's work.<img class="comma_close" src="/images/comma_close.png"></div>
 
-	<div class="review_info">
-		<img class="review_img" src="../images/people/alan_williams.jpeg">
-		<div class="name_info">
-			<a>Alan Williams</a>
-			<div>Global Head of Financial Crime, Royal Bank of Scotland</div>
-		</div>
+	<div class="review_info">		
+		<a>Alan Williams</a>
+		<div>Global Head of Financial Crime, Royal Bank of Scotland</div>		
 	</div>
 </div>
 
 
 <div class="review">
-	<div><img class="comma_open" src="/images/comma_open.png">John Cusack offers the reader an insight into a world which is unfortunately only too real, though one many rarely see, in any event with up front clarity and precision drawing from his many years of experience. UBS is only one of many stakeholders who can help in the fight to combat money laundering, a fight that John rightly identified requires still much greater focus on effectiveness and more resourceful co-operation between public and private parties. This at a time when co- operation and trust evidently requires renewed investment. We need to always remember that TRUST IS THE SUM OF ALL PROMISES. Accordingly John lays bare the harms and very significant threats we all face in not working together and in allowing trust to wither. I thank all readers to take this to heart.<img class="comma_close" src="/images/comma_close.png"></div>
+	<div><img class="comma_open" src="/images/comma_open.png">John Cusack offers the reader an insight into a world which is unfortunately only too real, though one many rarely see in any event with up front clarity and precision drawing from his many years of experience. UBS is only one of many stakeholders who can help in the fight to combat money laundering, a fight that John rightly identified requires still much greater focus on effectiveness and more resourceful co-operation between public and private parties. This at a time when co-operation and trust evidently requires renewed investment. We need to always remember that TRUST IS THE SUM OF ALL PROMISES. Accordingly John lays bare the harms and very significant threats we all face in not working together and in allowing trust to wither. I thank all readers to take this to heart.<img class="comma_close" src="/images/comma_close.png"></div>
 
 	<div class="review_info">
 		<a href="http://www.ubs.com/global/en/about_ubs/corporate-governance/group-executive-board/cv-markus-diethelm.html"><img class="review_img" src="../images/people/markus_diethelm.jpeg"></a>
@@ -150,7 +135,7 @@
 
 
 <div class="review">
-	<div><img class="comma_open" src="/images/comma_open.png">This weighty tome amply demonstrates why financial crime deserves a higher priority in both thought and resources, as Mr. Cusack exhorts. All those involved in the challenge should either read this book, or know it already - which given it’s encyclopaedic quality, is somewhat unlikely.<img class="comma_close" src="/images/comma_close.png"></div>
+	<div><img class="comma_open" src="/images/comma_open.png">This weighty tome amply demonstrates why financial crime deserves a higher priority in both thought and resources, as Mr. Cusack exhorts. All those involved in the challenge should either read this book, or know it already which given it's encyclopaedic quality, is somewhat unlikely.<img class="comma_close" src="/images/comma_close.png"></div>
 
 	<div class="review_info">		
 		<a href="http://uk.linkedin.com/pub/john-mair/16/819/38a"><img class="review_img" src="../images/people/john_mair.jpg"></a>
@@ -175,7 +160,7 @@
 </div>
 
 <div class="review">
-	<div><img class="comma_open" src="/images/comma_open.png">One of the most striking things that comes through on reading John Cusack’s excellent book is how often in the financial services industry in particular firms repeat the same mistakes. The similarities between our own recent "rogue trader" and Jerome Kerviel's exploits at Soc Gen is but one striking example. Our greatest weapon to combat such failure is the educa- tion of the professionals in the industry and John’s book is a major contribution in this regard. It is an invaluable tool for all in the industry, regulator or regulated.<img class="comma_close" src="/images/comma_close.png"></div>
+	<div><img class="comma_open" src="/images/comma_open.png">One of the most striking things that comes through on reading John Cusack's excellent book is how often in the financial services industry in particular firms repeat the same mistakes. The similarities between our own recent "rogue trader" and Jerome Kerviel's exploits at Soc Gen is but one striking example. Our greatest weapon to combat such failure is the educa- tion of the professionals in the industry and John's book is a major contribution in this regard. It is an invaluable tool for all in the industry, regulator or regulated.<img class="comma_close" src="/images/comma_close.png"></div>
 
 	<div class="review_info">
 		<a href="https://www.linkedin.com/pub/andrew-williams/b/849/b02"><img class="review_img" src="../images/people/andrew_williams.jpg"></a>
@@ -198,6 +183,17 @@
 	</div>
 </div>
 
+<div class="review">
+	<div><img class="comma_open" src="/images/comma_open.png">A remarkable accomplishment. An expansive compendium of AML materials that will provide a very helpful resource for industry professionals and academics alike.<img class="comma_close" src="/images/comma_close.png"></div>
+	
+	<div class="review_info">
+		<a href="http://www.linkedin.com/pub/eoin-o-shea/8/118/a53"><img class="review_img" src="../images/people/eoin.JPG"></a>
+		<div class="name_info">
+			<a href="http://www.linkedin.com/pub/eoin-o-shea/8/118/a53">Eoin O'Shea</a>
+			<div>Chief Central Compliance Officer, Credit Suisse</div>
+		</div>
+	</div>
+</div>
 
 <div class="review">
 	<div><img class="comma_open" src="/images/comma_open.png">John Cusack's reputation as a leading thinker and practitioner in the bank compliance field is well-established and will be re-inforced by this path breaking volume. Perhaps less appreciated is John's more longstanding membership in a less saintly trade. The broad thematic treatment and trenchant case study analysis displayed here derive in large part from his legal background. The one-two punch this book delivers sets John apart, and commends this work to compliance and legal professionals. Indeed one submits that lawyers may have the most to learn from perusing it.<img class="comma_close" src="/images/comma_close.png"></div>
@@ -241,7 +237,7 @@
 		<a href="http://www.hfw.com/Noel-Campbell"><img class="review_img" src="../images/people/noel_campbell.png"></a>
 		<div class="name_info">
 			<a href="http://www.hfw.com/Noel-Campbell">Noel Campbell</a>
-			<div>General Counsel UBS Wealth Management Retail and Corporates and former UBS Global Head of Compliance</div>
+			<div>Partner, Head Commercial Litigation, Holman Fenwick & Willan LLP. Noel specialises in commercial litigation with an emphasis on financial litigation, fraud and asset recovery, insolvency, company law matters and trusts. He has great experience of handling matters in offshore jurisdictions and of multi jurisdictional disputes generally. He is a practising CEDR-Solve mediator and on the Court of Appeal panel.</div>
 		</div>
 	</div>
 </div>

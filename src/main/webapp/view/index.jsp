@@ -57,6 +57,8 @@
                 </li>        -->          
                 <!-- <li><a href="/request_test">Request Test</a></li> -->
                 <li><a href="/book_reviews">Book Reviews</a></li>
+                <li><a href="/buy_or_download">Buy/Download Red Alert</a></li>
+                <li><a href="/contact_me">Contact me</a></li>
             </ul>
         </div>
         

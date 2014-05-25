@@ -54,6 +54,18 @@ public class BookController {
         return INDEX;
     }
 
+    @RequestMapping(value = "/contact_me", method = RequestMethod.GET)
+    public String contactMeController(ModelMap map) {
+        map.addAttribute(PAGE_NAME, "contact_me.jsp");
+        return INDEX;
+    }
+
+    @RequestMapping(value = "/buy_or_download", method = RequestMethod.GET)
+    public String buyOrDownloadController(ModelMap map) {
+        map.addAttribute(PAGE_NAME, "buy_or_download.jsp");
+        return INDEX;
+    }
+
     public void setUserDAO(UserDAO stockDAO) {
         this.userDAO = stockDAO;
     }

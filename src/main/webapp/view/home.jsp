@@ -1,4 +1,4 @@
-<h2>Money Laundering Cases and Materials</br>for Money Laundering Prevention Professionals 2014 Edition - Issue 1</h2>
+<h2>Money Laundering Cases and Materials for Money Laundering Prevention Professionals 2014 Edition - Issue 1</h2>
 
 <div class="book_image">
     <img class="the_book_image" src="/images/the_book.png">
@@ -15,6 +15,8 @@ a hundred battles. If you know yourself but not the enemy, for every victory gai
 <p>The Book is intended to reduce the criminals advantage, to alter the current imbalance and to get to know the criminal and his ways better. They provide money laundering prevention professionals, those that design, implement and test and for those that are also interested in combatting money laundering on a day to day basis with a comprehensive basis to improve both their understanding and ultimately improve effectiveness.</p>
 
 <p>This Book is divided into <strong>2 Parts</strong> each divided into <strong>4 Sections</strong>, with, <strong>5 Recommendations to Effectively" combat Money Laundering; Money Laundering Facts and Figures;</strong> and <strong>What is Money Laundering?</strong> providing an introduction to Part 1.</p>
+
+<p>In Part 1 the focus is on Crime related materials, covering (Sec 1) all predicate offences to money laundering; followed by (Sec 2) an in depth look at the various risk categories that pose an increased risk of money laundering for Banks and other Financial Institutions; for example covering Customer types, Countries, Products and Services and Channels; Important Laws and Regulations (Sec 3) and AML, Economic Sanctions, Anti-Bribery and Fraud Prevention Programme Design (Sec 4). In Part 2 the focus is on Crime related Cases with Regions, Countries, Criminals & Terrorists focussing on Regional and Country hotspots and profiling more than 250 of the most dangerous and deadly organised criminal gangs and terrorist groups (Sec 5); as well as details of the most reprehensible of terrorist attacks (Sec 6); followed by 150+ Leading Criminal Case Profiles (Sec 7) and finally 100+ Bank Enforcement case profiles.</p>
 
 
 <h2>Book Reviews</h2>
