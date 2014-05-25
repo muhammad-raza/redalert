@@ -1,8 +1,8 @@
 <h2>Money Laundering Cases and Materials for Money Laundering Prevention Professionals 2014 Edition - Issue 1</h2>
 
 <div class="book_image">
-    <img class="the_book_image" src="/images/the_book.png">
-    <a class="button read_online" ontouchstart="" href="#"><span>Read Online</span></a>
+    <a href="/pdfjs/web/redalert.jsp"><img class="the_book_image" src="/images/the_book.png"></a>
+    <a class="button read_online" ontouchstart="" href="/pdfjs/web/redalert.jsp"><span>Read Online</span></a>
 </div>
 
 <p>This Book is intended to serve as a comprehensive source of information for money laundering professionals that wish to better understand, establish or improve their money laundering, terrorist financing, fraud, sanctions, bribery and corruption prevention frameworks (hereafter referred to as money laundering). These issues are of utmost importance and increasingly so, as the international community is relying on money laundering professionals to assist in successfully preventing, detecting and reporting money laundering in order to fight the devastating economic and social consequences of these criminal activities.</p>
