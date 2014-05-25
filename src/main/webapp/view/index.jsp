@@ -3,39 +3,38 @@
 <html>
 <head lang="en">
     <meta http-equiv="Cache-control" content="public">
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,maxuser-scalable=no">
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600|Arvo:700,400" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="/style/style.css">
     <link rel="stylesheet" type="text/css" href="/style/mobile_style.css">
     <link rel="icon" type="image/png" href="/images/book_favicon.png" />
 
-    
     <script src="/js/pdf.js"></script>
     <script>
         PDFJS.workerSrc = '/js/pdf.worker.js';
     </script>
     <script src="/js/jquery.js"></script>        
-    <script src="/js/main.js"></script>
-    <!-- // <script src="/js/turn.js"></script>     -->
-    <!-- // <script src="/js/turn_responsive.js"></script> -->
+    <script src="/js/main.js"></script>    
     
     <title>Red Alert</title>
 </head>
 <body>
-<div id="container">    
-<!-- <iframe src="http://docs.google.com/gview?url=http://localhost:5000/pdf/redalert.pdf&embedded=true" style="width:718px; height:700px;" frameborder="0"></iframe> -->
-    <div class="mobile_menu">
+<div id="container" data-role="page">    
+
+    <div class="mobile_menu" data-role="content">
         <div class="mobile_menu_button"></div>
     </div>
 
     <div class="upper_body">
         <a href="/"><div class="main_heading"></div></a>
         <div class="main_heading_desc">Money Laundering Cases and Materials </br> by John Cusack</div>
-        <!-- <div class="signIn hidden"><a class="anim" href="/secure/signin">Sign In / Register</a></div> -->
+        <div class="line"></div>
+        <div class="line"></div>
     </div>
 
     <div class="body_container">
         <div class="left_nav">
+            <span class="close">X</span>
             <ul>
                 <li><a href="/">Read The Book</a></li>
                 <li><a href="/biography">About the author</a></li>
@@ -70,8 +69,20 @@
 
 </div>
 
-    <!-- <footer> -->
 
-    <!-- </footer> -->
+    <div class="left_nav mobile_left_nav">
+            <span class="close">X</span>
+            <ul>
+                <li><a href="/">Read The Book</a></li>
+                <li><a href="/biography">About the author</a></li>
+                <li><a href="/matthew_cooper">Dedication to Matthew cooper</a></li>
+                <li><a href="/book_reviews">Book Reviews</a></li>
+                <li><a href="/buy_or_download">Buy/Download Red Alert</a></li>
+                <li><a href="/contact_me">Contact me</a></li>
+            </ul>
+        </div>
+    </div>
+
+
 </body>
 </html>

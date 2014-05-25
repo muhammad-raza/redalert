@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05a3812c-431a-496d-b204-7aa5c9d57806" name="Default" comment="styles added">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/people/neil_stocks.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/images/people/tracy_paradise.JPG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/view/home.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/view/home.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/view/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/view/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/main.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/style/mobile_style.css" afterPath="$PROJECT_DIR$/src/main/webapp/style/mobile_style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/view/reviews.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/view/reviews.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/style/style.css" afterPath="$PROJECT_DIR$/src/main/webapp/style/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="redalert.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -75,16 +83,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/uk/org/redalert/userdao/UserImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="495">
-              <caret line="20" column="54" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="application.properties" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
@@ -126,18 +124,28 @@
       <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/view/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="1230">
-              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="1395">
+              <caret line="12" column="30" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="workspace.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="workspace.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.1010101" vertical-offset="15" max-vertical-offset="15285">
-              <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="15915">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reviews.jsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/view/reviews.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7070707" vertical-offset="1605" max-vertical-offset="4125">
+              <caret line="121" column="10" selection-start-line="121" selection-start-column="10" selection-end-line="121" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -146,8 +154,8 @@
       <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/style/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4470">
-              <caret line="5" column="18" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="4590">
+              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -194,6 +202,7 @@
         <option value="$PROJECT_DIR$/src/main/java/uk/org/redalert/controller/BookController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/view/index.jsp" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/view/reviews.jsp" />
       </list>
     </option>
   </component>
@@ -214,7 +223,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-11" />
     <option name="y" value="22" />
-    <option name="width" value="1171" />
+    <option name="width" value="1244" />
     <option name="height" value="762" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -300,6 +309,32 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redalert" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="redalert" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -338,9 +373,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/images/people" />
       <recent name="$PROJECT_DIR$/src/main/webapp" />
       <recent name="$PROJECT_DIR$/src/main/webapp/images" />
-      <recent name="$PROJECT_DIR$/src/main/webapp/images/people" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
@@ -590,7 +625,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="22" width="1171" height="762" extended-state="0" />
+    <frame x="-11" y="22" width="1244" height="762" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -609,7 +644,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916266" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27192205" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25540766" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.55671644" sideWeight="0.49878544" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991204" sideWeight="0.49959514" order="9" side_tool="false" content_ui="tabs" />
     </layout>
@@ -949,8 +984,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/style/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4470">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="4590">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -993,16 +1028,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/view/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="1230">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="1395">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1010101" vertical-offset="15" max-vertical-offset="15285">
-          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="15915">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/reviews.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7070707" vertical-offset="1605" max-vertical-offset="4125">
+          <caret line="121" column="10" selection-start-line="121" selection-start-column="10" selection-end-line="121" selection-end-column="10" />
           <folding />
         </state>
       </provider>

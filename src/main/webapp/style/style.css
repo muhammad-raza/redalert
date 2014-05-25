@@ -11,7 +11,12 @@ body.open{
     overflow: hidden;
 }
 
+img {
+    outline: none;
+}
+
 a {
+    outline: none;
     color: #888;    
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -166,9 +171,8 @@ input[type="text"], input[type="password"]{
     
 }
 .main_heading_desc {
-    text-transform: uppercase;
-    border-bottom: solid 2px #e5e5e5;
-    padding-bottom: 20px
+    text-transform: uppercase;    
+    margin-bottom: 20px
 }
 .mobile_menu{    
     height: 50px;
@@ -179,17 +183,20 @@ input[type="text"], input[type="password"]{
 .curve_edges{
     border-radius: 7px;
 }
-.upper_body {
-    border-bottom: solid 2px #e5e5e5;
-    padding-bottom: 20px;
+.upper_body {    
     text-align: center;
-    height: 100px;
+}
+
+.line {
+    border: solid 1px #e5e5e5;
+    margin-bottom: 7px;
+    clear: both;
 }
 
 .left_nav{
     width: 24%;
     display: inline-block;
-    padding: 20px;
+    padding: 0 20px;
     font-family: 'arvo';
     color: #777;
 }
@@ -206,7 +213,6 @@ input[type="text"], input[type="password"]{
     display: none;
     vertical-align: top;
     width: 68%;
-    padding: 20px 0;    
 }
 .book_image img {   
     margin-bottom: 5px; 
@@ -282,11 +288,13 @@ input[type="text"], input[type="password"]{
 }
 
 .more {
-    width: 100px;
+    width: 200px;
 }
 
-footer {
-    height: 300px;
-    border-top: solid 2px #e5e5e5;
-    background: #f0f0f0;
+.close {
+    display: none;
+}
+
+.mobile_left_nav {
+    display: none;
 }

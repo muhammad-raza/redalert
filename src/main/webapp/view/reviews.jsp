@@ -105,18 +105,21 @@
 <div class="review">
 	<div><img class="comma_open" src="/images/comma_open.png">For many years now the fight against financial crime and the detection of the proceeds of such activities has been one of the major challenges facing the financial markets. Increasingly financial institutions, financial centres, regulators and governments themselves are at risk of severe reputational damage if they fail to detect such activity. Individuals are also at risk of public censure or worse if they fail to instigate systems and controls to combat the risk of money laundering the proceeds of crime and to prevent their organisation being used by criminals and terrorists. Against this background John Cusack's book is very timely. I do not think anybody is better qualified to address this topic, he has been at the forefront of the fight against financial crime for most of his career and his wisdom and practical approach is very evident throughout. I commend this book to those working in the financial services industry, to the lawyers and compliance personnel who work with them and of course to their regulators, law enforcement agencies and policy makers.<img class="comma_close" src="/images/comma_close.png"></div>
 
-	<div class="review_info">		
-		<a>Neil Stocks</a>
-		<div>former Global Head of Compliance UBS.</div>
+	<div class="review_info">	
+	<img class="review_img" src="../images/people/neil_stocks.png">		
+	<div class="name_info">
+			<a>Neil Stocks</a>
+			<div>former Global Head of Compliance UBS.</div>
+		</div>
 	</div>
 </div>
 
 <div class="review">
 	<div><img class="comma_open" src="/images/comma_open.png">John Cusack has been at the leading edge of the banking industry's anti-money laundering agenda for well over a decade. He has compiled here a comprehensive picture of the legislative and regulatory history and international standards that have brought us to where we are today, along with subject matter analysis of cases, typologies, enforcements, and perpetrators. In all this is the 'must have' compendium for anyone constructing or assessing their AML programme, and is a fitting and worthy tribute to Matt Cooper's work.<img class="comma_close" src="/images/comma_close.png"></div>
 
-	<div class="review_info">		
+	<div class="review_info">				
 		<a>Alan Williams</a>
-		<div>Global Head of Financial Crime, Royal Bank of Scotland</div>		
+		<div>Global Head of Financial Crime, Royal Bank of Scotland</div>				
 	</div>
 </div>
 
@@ -241,3 +244,26 @@
 		</div>
 	</div>
 </div>
+
+<div class="review">
+	<div><img class="comma_open" src="/images/comma_open.png">Excellent mapping of the global fight against financial crimes. Very comprehensive background material for professionals in this field, both from the financial sector and the competent authorities.<img class="comma_close" src="/images/comma_close.png"></div>
+
+	<div class="review_info">		
+		<a>Rene Bruelhart</a>
+		<div>Director of the Financial Intelligence Authority (AIF) of the Holy See and the Vatican City State and advisor to the Holy See since September 2012. Previously, he served as Director of the Financial Intelligence Unit (FIU) of the Principality of Liechtenstein for over eight years. He has worked with the Liechtenstein FIU since its creation in 2001, initiallyserving as its deputy director. From 2010 to 2012, Mr. Bruelhart also served as Vice Chair of the Egmont Group, the global network of national Financial Intelligence Units. Furthermore, he acted for many years as the coordinator of the task force on countering Terrorism Financing in Liechtenstein and as the Head of the Country’s delegation to Moneyval, the Committee of Experts on the Evaluation of Anti-Money Laundering Measures and the Financing of Terrorism, a monitoring body of theCouncil of Europe. Mr. Bruelhart began his career in 1999 working with international law firms in Brussels and Zurich.</div>
+	</div>
+</div>
+
+
+<div class="review">
+	<div><img class="comma_open" src="/images/comma_open.png">Four years ago John asked me to write an Anti-Money Laundering Almanac for him before moving on from his team. For various reasons, I never got around to it. He then asked our dear friend and colleague, Matthew Cooper, to do the same.  Ever the trooper, Matt started, his unique experience, style and flair for sharing knowledge shining through; but he didn't get around to finishing it either. When Matt passed away, three years ago already, John, demonstrating the drive, dedication and determination which make him who he is, picked up the pen (or rather iPad), and, with the support of many, but as always leading the charge, finished what Matt had started.  Red Alert is not only an impressive memorial to Matt, but above all a true testament of the sheer breadth of John's interest, passion even, knowledge and intellectual leadership in the field of AML. A must-have source book for all of us in the field, and beyond.<img class="comma_close" src="/images/comma_close.png"></div>
+
+	<div class="review_info">
+		<a><img class="review_img" src="../images/people/tracy_paradise.JPG"></a>
+		<div class="name_info">
+			<a>Tracy Paradise</a>
+			<div>Head of Policies & Standards, Financial Crime Compliance, HSBC Private Banking and Executive Secretary, from it's inception of the Wolfsberg Group and former Global Head Education Training and Awareness, AML at UBS</div>
+		</div>
+	</div>
+</div>
+
