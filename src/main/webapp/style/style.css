@@ -174,11 +174,6 @@ input[type="text"], input[type="password"]{
     text-transform: uppercase;    
     margin-bottom: 20px
 }
-.mobile_menu{    
-    height: 50px;
-    line-height:50px;
-    width: 100%;
-}
 
 .curve_edges{
     border-radius: 7px;

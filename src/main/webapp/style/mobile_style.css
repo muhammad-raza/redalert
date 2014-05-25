@@ -19,8 +19,10 @@ only screen and (max-width : 500px),
     .upper_body{
         margin-top: 15px;
     }
-        
+
     .mobile_menu{
+        height: 50px;
+        line-height:50px;
     	display: block;
         position: absolute;
         top: 0;
@@ -79,7 +81,7 @@ only screen and (max-width : 500px),
     .mobile_left_nav{        
         font-size: 12px;        
         width: 80%;
-        position: absolute;
+        position: fixed;
         top: 0;
         left: 0;
         color: #fff;
