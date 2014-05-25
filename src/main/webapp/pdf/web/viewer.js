@@ -561,7 +561,7 @@ var PDFView = {
   },
 
   setTitle: function pdfViewSetTitle(title) {
-    document.title = title;
+    // document.title = title;
 //#if B2G
 //  document.getElementById('activityTitle').textContent = title;
 //#endif

@@ -24,7 +24,7 @@ http://sourceforge.net/adobe/cmap/wiki/License/
 <!--#if GENERIC || CHROME-->
     <meta name="google" content="notranslate">
 <!--#endif-->
-    <title>PDF.js viewer</title>
+    <title>Red Alert</title>
 
 <!--#if FIREFOX || MOZCENTRAL-->
 <!--#include viewer-snippet-firefox-extension.html-->
