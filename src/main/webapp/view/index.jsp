@@ -69,17 +69,7 @@
     </div>
 
 </div>
-<div class="book_gallery_container">
-    <img class="loading" src="/images/loading.gif">
-    <div class="book_gallery">        
-        <canvas id="canvas"></canvas>
-    <div class="nav">        
-        <div class="left"><span class="left_chevron"></span></div>
-        <div class="right"><span class="right_chevron"></span></div>
-        <span class="close"></span>
-    </div>
-    </div>
-</div>
+
     <!-- <footer> -->
 
     <!-- </footer> -->
