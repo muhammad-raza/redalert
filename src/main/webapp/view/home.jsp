@@ -1,4 +1,4 @@
-<h2>Money Laundering Cases and Materials for Money Laundering Prevention Professionals 2014 Edition - Issue 1</h2>
+<div id="edition"><h2>Money Laundering Cases and Materials for Money Laundering Prevention Professionals <span itemprop="bookEdition">2014 Edition - Issue 1</span></h2></div>
 
 <div class="book_image">
     <a href="/pdf/web/redalert.jsp#zoom=auto"><img class="the_book_image" src="/images/the_book.png"></a>

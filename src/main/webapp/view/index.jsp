@@ -3,7 +3,7 @@
 <html>
 <head lang="en">
     <meta http-equiv="Cache-control" content="public">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,maxuser-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, maxuser-scalable=no">
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600|Arvo:700,400" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="/style/style.css">
     <link rel="stylesheet" type="text/css" href="/style/mobile_style.css">
@@ -27,7 +27,7 @@
 
     <div class="upper_body">
         <a href="/"><div class="main_heading"></div></a>
-        <div class="main_heading_desc">Money Laundering Cases and Materials </br> by John Cusack</div>
+        <div itemscope itemtype="http://schema.org/Book" itemref="author edition description rating" class="main_heading_desc"><span itemprop="name">Money Laundering Cases and Materials</span></br> byJohn Cusack</div>
         <div class="line"></div>
         <div class="line"></div>
     </div>

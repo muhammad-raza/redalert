@@ -1,8 +1,5 @@
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px),
-only screen and (max-width : 500px),
-{
+@media handheld, screen and (max-width: 480px) {
+
 
     .left_nav, .hidden{
         display: none;
@@ -109,9 +106,14 @@ only screen and (max-width : 500px),
         font-size: 36px;
         float: right;
     }
-    @media 
-    (-webkit-min-device-pixel-ratio: 2) {         
+}
 
+@media handheld, screen and (max-width: 800px) {
+    .left_nav ul li a{
+        font-size: 12px;
     }
-
+    .main_heading {     
+        background-size: 200px auto; 
+        height: 34px;
+    }  
 }

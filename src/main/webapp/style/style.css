@@ -191,7 +191,7 @@ input[type="text"], input[type="password"]{
 .left_nav{
     width: 24%;
     display: inline-block;
-    padding: 0 20px;
+    padding: 0 10px;
     font-family: 'arvo';
     color: #777;
 }
