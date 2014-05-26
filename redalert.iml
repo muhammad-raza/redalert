@@ -20,7 +20,7 @@
     <orderEntry type="library" name="Maven: org.eclipse.jetty:jetty-continuation:8.1.15.v20140411" level="project" />
     <orderEntry type="library" name="Maven: org.eclipse.jetty:jetty-http:8.1.15.v20140411" level="project" />
     <orderEntry type="library" name="Maven: org.eclipse.jetty:jetty-io:8.1.15.v20140411" level="project" />
-    <orderEntry type="library" name="Maven: org.eclipse.jetty.orbit:javax.servlet.jsp:2.2.0.v201112011158" level="project" />
+    <orderEntry type="library" name="Maven: org.eclipse.jetty:jetty-jsp:8.1.15.v20140411" level="project" />
     <orderEntry type="library" name="Maven: org.eclipse.jetty.orbit:org.apache.jasper.glassfish:2.2.2.v201112011158" level="project" />
     <orderEntry type="library" name="Maven: org.eclipse.jetty.orbit:javax.servlet.jsp.jstl:1.2.0.v201105211821" level="project" />
     <orderEntry type="library" name="Maven: org.eclipse.jetty.orbit:org.apache.taglibs.standard.glassfish:1.2.0.v201112081803" level="project" />
