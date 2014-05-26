@@ -27,7 +27,7 @@ common: &default_settings
   # For example, to report data to "My Application" and "My Application 2" use this:
   # app_name: My Application;My Application 2
   # This setting is required.
-  app_name: redalert
+  app_name: red-alert
 
   # Set this property to true along with the high security property
   # in the New Relic UI to enable high security for the account.
@@ -263,15 +263,15 @@ common: &default_settings
 
 development:
   <<: *default_settings
-  app_name: redalert (Development)
+  app_name: red-alert (Development)
 
 test:
   <<: *default_settings
-  app_name: redalert (Test)
+  app_name: red-alert (Test)
 
 production:
   <<: *default_settings
 
 staging:
   <<: *default_settings
-  app_name: redalert (Staging)
+  app_name: red-alert (Staging)
