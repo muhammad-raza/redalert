@@ -16,7 +16,7 @@
     <script src="/js/jquery.js"></script>        
     <script src="/js/main.js"></script>    
     
-    <title>Red Alert</title>
+    <title>${title}</title>
 </head>
 <body>
 <div id="container" data-role="page">    
