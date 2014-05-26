@@ -248,9 +248,12 @@
 <div class="review">
 	<div><img class="comma_open" src="/images/comma_open.png">Excellent mapping of the global fight against financial crimes. Very comprehensive background material for professionals in this field, both from the financial sector and the competent authorities.<img class="comma_close" src="/images/comma_close.png"></div>
 
-	<div class="review_info">		
-		<a>Rene Bruelhart</a>
-		<div>Director of the Financial Intelligence Authority (AIF) of the Holy See and the Vatican City State and advisor to the Holy See since September 2012. Previously, he served as Director of the Financial Intelligence Unit (FIU) of the Principality of Liechtenstein for over eight years. He has worked with the Liechtenstein FIU since its creation in 2001, initiallyserving as its deputy director. From 2010 to 2012, Mr. Bruelhart also served as Vice Chair of the Egmont Group, the global network of national Financial Intelligence Units. Furthermore, he acted for many years as the coordinator of the task force on countering Terrorism Financing in Liechtenstein and as the Head of the Country's delegation to Moneyval, the Committee of Experts on the Evaluation of Anti-Money Laundering Measures and the Financing of Terrorism, a monitoring body of theCouncil of Europe. Mr. Bruelhart began his career in 1999 working with international law firms in Brussels and Zurich.</div>
+	<div class="review_info">
+	<a><img class="review_img" src="../images/people/rene_bruelhart.png"></a>
+		<div class="name_info">		
+			<a>Rene Bruelhart</a>
+			<div>Director of the Financial Intelligence Authority (AIF) of the Holy See and the Vatican City State and advisor to the Holy See since September 2012. Previously, he served as Director of the Financial Intelligence Unit (FIU) of the Principality of Liechtenstein for over eight years. He has worked with the Liechtenstein FIU since its creation in 2001, initiallyserving as its deputy director. From 2010 to 2012, Mr. Bruelhart also served as Vice Chair of the Egmont Group, the global network of national Financial Intelligence Units. Furthermore, he acted for many years as the coordinator of the task force on countering Terrorism Financing in Liechtenstein and as the Head of the Country's delegation to Moneyval, the Committee of Experts on the Evaluation of Anti-Money Laundering Measures and the Financing of Terrorism, a monitoring body of theCouncil of Europe. Mr. Bruelhart began his career in 1999 working with international law firms in Brussels and Zurich.</div>
+		</div>
 	</div>
 </div>
 
