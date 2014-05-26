@@ -22,7 +22,7 @@ http://sourceforge.net/adobe/cmap/wiki/License/
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <!--#if GENERIC || CHROME-->
-    <meta name="google" content="notranslate">
+    <meta name="google" content="notranslate">        
 <!--#endif-->
     <title>Red Alert</title>
 

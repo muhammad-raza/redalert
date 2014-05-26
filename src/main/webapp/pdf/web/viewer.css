@@ -1790,7 +1790,8 @@ html[dir='rtl'] #documentPropertiesOverlay .row > * {
 @media print {
   /* General rules for printing. */
   body {
-    background: transparent none;
+    display: none;
+    visibility: hidden;
   }
 
   /* Rules for browsers that don't support mozPrintCallback. */
