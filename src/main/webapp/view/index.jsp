@@ -51,7 +51,7 @@
         <meta itemprop="headline" content="This book is dedicated to the hard work of all those involved in money laundering prevention and in particular to one of its brightest sons, and so to the memory of MATTHEW COOPER">
         <link itemprop="thumbnailUrl" href="http://www.redalert.org.uk/images/book_thumbnail.png">
 
-        <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
+        <span itemprop="aggregateRating" itemscope itemref="rating" itemtype="http://schema.org/AggregateRating">
             <meta itemprop="ratingValue" content="4.9">
             <meta itemprop="reviewCount" content="22">
         </span>

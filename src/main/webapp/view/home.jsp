@@ -19,7 +19,7 @@ a hundred battles. If you know yourself but not the enemy, for every victory gai
 <p>In Part 1 the focus is on Crime related materials, covering (Sec 1) all predicate offences to money laundering; followed by (Sec 2) an in depth look at the various risk categories that pose an increased risk of money laundering for Banks and other Financial Institutions; for example covering Customer types, Countries, Products and Services and Channels; Important Laws and Regulations (Sec 3) and AML, Economic Sanctions, Anti-Bribery and Fraud Prevention Programme Design (Sec 4). In Part 2 the focus is on Crime related Cases with Regions, Countries, Criminals & Terrorists focussing on Regional and Country hotspots and profiling more than 250 of the most dangerous and deadly organised criminal gangs and terrorist groups (Sec 5); as well as details of the most reprehensible of terrorist attacks (Sec 6); followed by 150+ Leading Criminal Case Profiles (Sec 7) and finally 100+ Bank Enforcement case profiles.</p>
 
 
-<h2>Book Reviews</h2>
+<h2 id="rating"><span itemprop="reviewCount">22</span> Book Reviews</h2>
 
 <div class="review">
     <div><img class="comma_open" src="/images/comma_open.png">For anyone wanting to delve into the background of financial crime and money laundering, this book is a fine starting point. John Cusack has assembled an amazing amount of information, from types of crime to particular threats faced by individual countries. I would have been a much better informed President of FATF if John's book had been available a few years ago.<img class="comma_close" src="/images/comma_close.png"></div>
