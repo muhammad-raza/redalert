@@ -1,4 +1,4 @@
-<div id="description"><h2><span itemprop="description">This book is dedicated to the hard work of all those involved in money laundering prevention and in particular to one of its brightest sons, and so to the memory of <strong>MATTHEW COOPER</strong></span></h2></div>
+<h2><span itemprop="description">This book is dedicated to the hard work of all those involved in money laundering prevention and in particular to one of its brightest sons, and so to the memory of <strong>MATTHEW COOPER</strong></span></h2></div>
             <div class="methew_image" >
                 <img src="/images/people/methew_cooper.png">
             </div>

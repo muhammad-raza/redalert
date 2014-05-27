@@ -4,10 +4,24 @@
 <head lang="en">
     <meta http-equiv="Cache-control" content="public">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, maxuser-scalable=no">
+    
+    <meta name="description" content="This Book is intended to serve as a comprehensive source of information for money laundering professionals.">
+    
+    <meta property="og:title" content="Red Alert | Money Laundering Cases & Materials"/>
+    <meta property="og:description" content="This Book is intended to serve as a comprehensive source of information for money laundering professionals."/>
+    <meta property="og:image" content="http://www.redalert.org.uk/images/book_thumbnail.png"/>
+    <meta property="og:url" content="http://www.redalert.org.uk"/>
+
+    <meta property="twitter:title" content="Red Alert | Money Laundering Cases & Materials"/>
+    <meta property="twitter:description" content="This Book is intended to serve as a comprehensive source of information for money laundering professionals."/>
+    <meta property="twitter:image" content="http://www.redalert.org.uk/images/book_thumbnail.png"/>
+    <meta property="twitter:url" content="http://www.redalert.org.uk"/>
+
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600|Arvo:700,400" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="/style/style.css">
     <link rel="stylesheet" type="text/css" href="/style/mobile_style.css">
-    <link rel="icon" type="image/png" href="/images/book_favicon.png" />
+    <link rel="icon" type="image/png" href="/images/book_favicon.png" />    
+
 
     <script src="/js/pdf.js"></script>
     <script>
@@ -27,7 +41,7 @@
 
     <div class="upper_body">
         <a href="/"><div class="main_heading"></div></a>
-        <div itemscope itemtype="http://schema.org/Book" itemref="author edition description rating" class="main_heading_desc"><span itemprop="name">Money Laundering Cases and Materials</span></br> byJohn Cusack</div>
+        <div itemscope itemtype="http://schema.org/Book" itemref="author edition description rating" class="main_heading_desc"><span itemprop="name">Money Laundering Cases and Materials</span></br> by <span itemscope itemtype="http://schema.org/Person" itemprop="author">John Cusack</span></div>
         <div class="line"></div>
         <div class="line"></div>
     </div>

@@ -23,6 +23,18 @@ http://sourceforge.net/adobe/cmap/wiki/License/
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <!--#if GENERIC || CHROME-->
     <meta name="google" content="notranslate">        
+    
+    <meta name="description" content="This Book is intended to serve as a comprehensive source of information for money laundering professionals.">
+    
+    <meta property="og:title" content="Red Alert | Money Laundering Cases & Materials"/>
+    <meta property="og:description" content="This Book is intended to serve as a comprehensive source of information for money laundering professionals."/>
+    <meta property="og:image" content="http://www.redalert.org.uk/images/book_thumbnail.png"/>
+    <meta property="og:url" content="http://www.redalert.org.uk"/>
+
+    <meta property="twitter:title" content="Red Alert | Money Laundering Cases & Materials"/>
+    <meta property="twitter:description" content="This Book is intended to serve as a comprehensive source of information for money laundering professionals."/>
+    <meta property="twitter:image" content="http://www.redalert.org.uk/images/book_thumbnail.png"/>
+    <meta property="twitter:url" content="http://www.redalert.org.uk"/>
 <!--#endif-->
     <title>Red Alert | Money Laundering Cases & Materials</title>
 
