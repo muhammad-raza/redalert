@@ -145,6 +145,10 @@ input[type="text"], input[type="password"]{
     transition: transform .2s ease-in-out;
 }
 
+.author {
+    color: #666;
+}
+
 .book_image {
     
     padding-bottom: 10px;
