@@ -1,4 +1,4 @@
-<div id="rating" itemprop="agregateRating" itemscope itemtype="http://schema.org/AggregateRating"><h2><span itemprop="reviewCount" itemscope itemtype="http://schema.org/Number">22</span> Book Reviews</h2></div>
+<div id="rating" itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating"><h2><span itemprop="reviewCount" itemtype="http://schema.org/Number">22</span> Book Reviews</h2></div>
 
 <div id="review" itemprop="review" itemscope itemtype="http://schema.org/Review" class="review">
 	<div itemprop="reviewBody"><img class="comma_open" src="/images/comma_open.png">For anyone wanting to delve into the background of financial crime and money laundering, this book is a fine starting point. John Cusack has assembled an amazing amount of information, from types of crime to particular threats faced by individual countries. I would have been a much better informed President of FATF if John's book had been available a few years ago.<img class="comma_close" src="/images/comma_close.png"></div>
