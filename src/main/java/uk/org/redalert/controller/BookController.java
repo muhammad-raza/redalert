@@ -21,7 +21,7 @@ public class BookController {
         map.addAttribute("user", new UserEntity());
         map.addAttribute("userList", userDAO.getAllUsers());
         map.addAttribute(PAGE_NAME, "home.jsp");
-        map.addAttribute("title", "Red Alert");
+        map.addAttribute("title", "Red Alert | Money Laundering Cases & Materials");
         return INDEX;
     }
 //

@@ -24,7 +24,7 @@ http://sourceforge.net/adobe/cmap/wiki/License/
 <!--#if GENERIC || CHROME-->
     <meta name="google" content="notranslate">        
 <!--#endif-->
-    <title>Red Alert</title>
+    <title>Red Alert | Money Laundering Cases & Materials</title>
 
 <!--#if FIREFOX || MOZCENTRAL-->
 <!--#include viewer-snippet-firefox-extension.html-->
