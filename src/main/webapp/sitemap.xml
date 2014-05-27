@@ -1,28 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-    <url>
-        <loc>http://www.redalert.org.uk/</loc>
-        <changefreq>weekly</changefreq>
-    </url>
-    <url>
-        <loc>http://www.redalert.org.uk/biography</loc>
-        <changefreq>weekly</changefreq>
-    </url>
-    <url>
-        <loc>http://www.redalert.org.uk/matthew_cooper</loc>
-        <changefreq>weekly</changefreq>
-    </url>
-    <url>
-        <loc>http://www.redalert.org.uk/book_reviews</loc>
-        <changefreq>weekly</changefreq>
-    </url>
-    <url>
-        <loc>http://www.redalert.org.uk/buy_or_download</loc>
-        <changefreq>weekly</changefreq>
-    </url>
-    <url>
-        <loc>http://www.redalert.org.uk/contact_me</loc>
-        <changefreq>weekly</changefreq>
-    </url>
+<url>
+  <loc>http://www.redalert.org.uk/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.redalert.org.uk/biography</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.redalert.org.uk/matthew_cooper</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.redalert.org.uk/book_reviews</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.redalert.org.uk/buy_or_download</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.redalert.org.uk/contact_me</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://www.redalert.org.uk/pdf/web/redalert.jsp</loc>
+  <changefreq>weekly</changefreq>
+</url>
 </urlset>
