@@ -42,6 +42,14 @@
     <div class="upper_body">
         <a href="/"><div class="main_heading"></div></a>
         <div itemscope itemtype="http://schema.org/Book" itemref="edition description rating review" class="main_heading_desc"><span itemprop="name">Money Laundering Cases and Materials</span></br> by <a itemprop="author" class="author" href="/biography">John Cusack</a>
+        
+        <meta itemprop="bookEdition" content="2014 Edition - Issue 1">        
+        <meta itemprop="description" content="Money Laundering Cases and Materials for professionals">
+        <meta itemprop="numberOfPages" content="430">
+        <meta itemprop="inLanguage" content="en-US">
+        <meta itemprop="about" content="Money Laundering Cases and Materials for professionals">
+        <meta itemprop="headline" content="This book is dedicated to the hard work of all those involved in money laundering prevention and in particular to one of its brightest sons, and so to the memory of MATTHEW COOPER">
+        <link itemprop="thumbnailUrl" href="http://www.redalert.org.uk/images/book_thumbnail.png">
 
         <span itemprop="aggregateRating" itemscope itemtype="http://schema.org/AggregateRating">
             <meta itemprop="ratingValue" content="4.9">
