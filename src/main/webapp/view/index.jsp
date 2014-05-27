@@ -52,8 +52,7 @@
         <link itemprop="thumbnailUrl" href="http://www.redalert.org.uk/images/book_thumbnail.png">
 
         <span itemprop="aggregateRating" itemscope itemref="rating" itemtype="http://schema.org/AggregateRating">
-            <meta itemprop="ratingValue" content="4.9">
-            <meta itemprop="reviewCount" content="22">
+            <meta itemprop="ratingValue" content="4.9">            
         </span>
         
         </div>
