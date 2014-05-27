@@ -1,13 +1,13 @@
 <div id="rating" itemscope itemtype="http://schema.org/AggregateRating"><h2><span itemprop="reviewCount" itemtype="http://schema.org/Number">22</span> Book Reviews</h2></div>
 
-<div id="review" itemscope itemtype="http://schema.org/Review" class="review">
+<div id="review" itemprop="review" itemscope itemtype="http://schema.org/Review" class="review">
 	<div itemprop="reviewBody"><img class="comma_open" src="/images/comma_open.png">For anyone wanting to delve into the background of financial crime and money laundering, this book is a fine starting point. John Cusack has assembled an amazing amount of information, from types of crime to particular threats faced by individual countries. I would have been a much better informed President of FATF if John's book had been available a few years ago.<img class="comma_close" src="/images/comma_close.png"></div>
 	
 	<div class="review_info">
 		<a href="http://www.parliament.uk/biographies/lords/lord-sassoon/4146"><img class="review_img" src="../images/people/lord_james.png"></a>
 		<div class="name_info">
 			<a itemprop="author" href="http://www.parliament.uk/biographies/lords/lord-sassoon/4146">Lord James Sassoon</a>
-			<div>former Commercial Secretary to the Treasury (UK) (2010-2013) and President of the Financial Action Task Force (2007/2008)</div>
+			<div itemprop="name">former Commercial Secretary to the Treasury (UK) (2010-2013) and President of the Financial Action Task Force (2007/2008)</div>
 		</div>
 	</div>
 </div>
