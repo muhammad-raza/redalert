@@ -41,7 +41,7 @@
 
     <div class="upper_body">
         <a href="/"><div class="main_heading"></div></a>
-        <div itemscope itemtype="http://schema.org/Book" itemref="edition description rating review" class="main_heading_desc"><span itemprop="name">Money Laundering Cases and Materials</span></br> by <a itemprop="author" class="author" href="/biography">John Cusack</a>
+        <div itemscope itemtype="http://schema.org/Book" itemref="review" class="main_heading_desc"><span itemprop="name">Money Laundering Cases and Materials</span></br> by <a itemprop="author" class="author" href="/biography">John Cusack</a>
         
         <meta itemprop="bookEdition" content="2014 Edition - Issue 1">        
         <meta itemprop="description" content="Money Laundering Cases and Materials for professionals">
