@@ -39,10 +39,14 @@ a hundred battles. If you know yourself but not the enemy, for every victory gai
     <div><img class="comma_open" src="/images/comma_open.png">Impressive. A multifaceted reference book containing a wealth of information on a challenging subject.<img class="comma_close" src="/images/comma_close.png"></div>
     
     <div class="review_info">
-        <a href="http://www.financialcentresinternational.com/FCI500/Boudewijn_Verhelst">Boudewijn Verhelst</a>
-        <div>Head Belgian FIU and Former Chair until 2013 of the Egmont Group of Financial Intelligence Units</div>
+        <a href="http://www.financialcentresinternational.com/FCI500/Boudewijn_Verhelst"><img class="review_img" src="../images/people/b_v.JPG"></a>
+        <div class="name_info">
+            <a href="http://www.financialcentresinternational.com/FCI500/Boudewijn_Verhelst">Boudewijn Verhelst</a>
+            <div>Head Belgian FIU and Former Chair until 2013 of the Egmont Group of Financial Intelligence Units</div>
+        </div>
     </div>
 </div>
+
 <div class="more">
     <a href="/book_reviews" ontouchstart="" class="button"><span>More&hellip;</span></a>
 </div>  

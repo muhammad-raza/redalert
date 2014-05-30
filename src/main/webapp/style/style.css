@@ -86,30 +86,32 @@ input[type="text"], input[type="password"]{
 }
 
 .button {      
-  display: block;
-  width: 100%  
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  -webkit-box-shadow:
+    display: block;
+    width: 100%  
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    height: 40px;
+    line-height: 40px;
+    -webkit-box-shadow:
     0 4px 0 #C57382,
     0 10px 15px rgba(0,0,0,.35);
-  -moz-box-shadow:
+    -moz-box-shadow:
     0 4px 0 #C57382,
     0 10px 15px rgba(0,0,0,.35);
-  box-shadow:
+    box-shadow:
     0 4px 0 #C57382,
     0 10px 15px rgba(0,0,0,.35);
 }
 
 .button:active {   
-  -webkit-box-shadow: 
+    -webkit-box-shadow: 
     0 4px 0 #C57382,
     0 8px 10px rgba(0,0,0,.3);
-  -moz-box-shadow: 
+    -moz-box-shadow: 
     0 8px 0 #C57382,
     0 8px 10px rgba(0,0,0,.3);
-  box-shadow: 
+    box-shadow: 
     0 4px 0 #C57382,
     0 8px 10px rgba(0,0,0,.3);
     -webkit-transition: -webkit-box-shadow .2s ease-in-out;
@@ -119,10 +121,10 @@ input[type="text"], input[type="password"]{
 }
 
 .button:active > span {  
-  -webkit-transform: translate(0, 4px);
-  -moz-transform: translate(0, 4px);
-  -o-transform: translate(0, 4px);
-  transform: translate(0, 4px);
+    -webkit-transform: translate(0, 4px);
+    -moz-transform: translate(0, 4px);
+    -o-transform: translate(0, 4px);
+    transform: translate(0, 4px);
 }
 
 .button > span {
