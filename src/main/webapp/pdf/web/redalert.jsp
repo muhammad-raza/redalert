@@ -75,21 +75,21 @@ http://sourceforge.net/adobe/cmap/wiki/License/
 <!--#endif-->
 
 <!--#if !PRODUCTION-->
-    <script async src="ui_utils.js"></script>
+    <script src="ui_utils.js"></script>
     <script src="default_preferences.js"></script>
-    <script async src="preferences.js"></script>
+    <script src="preferences.js"></script>
     <script src="download_manager.js"></script>
     <script src="view_history.js"></script>
-    <script async src="page_view.js"></script>
-    <script async src="thumbnail_view.js"></script>
+    <script src="page_view.js"></script>
+    <script src="thumbnail_view.js"></script>
     <script src="text_layer_builder.js"></script>
     <script src="document_outline_view.js"></script>
     <script src="document_attachments_view.js"></script>
-    <script async src="pdf_find_bar.js"></script>
+    <script src="pdf_find_bar.js"></script>
     <script src="pdf_find_controller.js"></script>
     <script src="pdf_history.js"></script>
     <script src="secondary_toolbar.js"></script>
-    <script async src="password_prompt.js"></script>
+    <script src="password_prompt.js"></script>
     <script src="presentation_mode.js"></script>
     <script src="grab_to_pan.js"></script>
     <script src="hand_tool.js"></script>
@@ -97,7 +97,7 @@ http://sourceforge.net/adobe/cmap/wiki/License/
 <!--#endif-->
 
 <!--#if !MINIFIED -->
-    <script async src="debugger.js"></script>
+    <script src="debugger.js"></script>
     <script src="viewer.js"></script>
 <!--#else-->
 <!--#include viewer-snippet-minified.html-->

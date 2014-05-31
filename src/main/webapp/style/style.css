@@ -1,3 +1,33 @@
+@font-face {
+  font-family: 'Arvo';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Arvo'), url(http://themes.googleusercontent.com/static/fonts/arvo/v6/BM-nqL-L5PgjKPDNaleWB_esZW2xOQ-xsNqO47m55DA.woff) format('woff');
+}
+@font-face {
+  font-family: 'Arvo';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Arvo Bold'), local('Arvo-Bold'), url(http://themes.googleusercontent.com/static/fonts/arvo/v6/_OKjjqM9ed2qvTR07QdjWwLUuEpTyoUstqEm5AMlJo4.woff) format('woff');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Source Sans Pro Light'), local('SourceSansPro-Light'), url(http://themes.googleusercontent.com/static/fonts/sourcesanspro/v7/toadOcfmlt9b38dHJxOBGMVNtom4QlEDNJaqqqzqdSs.woff) format('woff');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Source Sans Pro'), local('SourceSansPro-Regular'), url(http://themes.googleusercontent.com/static/fonts/sourcesanspro/v7/ODelI1aHBYDBqgeIAH2zlNHq-FFgoDNV3GTKpHwuvtI.woff) format('woff');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Source Sans Pro Semibold'), local('SourceSansPro-Semibold'), url(http://themes.googleusercontent.com/static/fonts/sourcesanspro/v7/toadOcfmlt9b38dHJxOBGCmgpmuQqK2I-L2S9cF65Ek.woff) format('woff');
+}
 
 body{
     padding: 10px;
@@ -22,23 +52,7 @@ a {
     text-transform: uppercase;
     text-decoration: none;    
 }
-.left_nav a{
-    font-size: 16px;
-}
 
-.left_nav a, .review a, .anim {    
-    -webkit-transition: color 0.3s ease;
-    -moz-transition: color 0.3s ease;
-    -o-transition: color 0.3s ease;
-    -ms-transition: color 0.3s ease;
-    transition: color 0.3s ease;
-}
-
-.left_nav a:hover, .review a:hover, .anim:hover{
-    font-weight: 700;
-    color: #9E2645;
-
-}
 ul{
     padding: 0;
     margin:0;
@@ -82,6 +96,24 @@ input[type="text"], input[type="password"]{
     box-shadow: 0 2px 4px #BBB inset; 
     -moz-border-radius: 3px; 
     -webkit-border-radius: 3px; 
+
+}
+
+.left_nav a{
+    font-size: 16px;
+}
+
+.left_nav a, .review a, .anim {    
+    -webkit-transition: color 0.3s ease;
+    -moz-transition: color 0.3s ease;
+    -o-transition: color 0.3s ease;
+    -ms-transition: color 0.3s ease;
+    transition: color 0.3s ease;
+}
+
+.left_nav a:hover, .review a:hover, .anim:hover{
+    font-weight: 700;
+    color: #9E2645;
 
 }
 
@@ -298,4 +330,126 @@ input[type="text"], input[type="password"]{
 
 .mobile_left_nav {
     display: none;
+}
+
+
+
+
+
+
+
+
+@media handheld, screen and (max-width: 480px) {
+
+
+    .left_nav, .hidden{
+        display: none;
+    }
+    .main_heading {     
+        background-size: 150px auto; 
+        height: 26px;
+    }  
+
+    .main_heading_desc {        
+        margin-bottom: 10px
+    }  
+
+    .upper_body{
+        margin-top: 15px;
+    }
+
+    .mobile_menu{
+        height: 50px;
+        line-height:50px;
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .mobile_menu_button{        
+        float: left;
+        width: 60px;
+        height: 40px
+    } 
+    .mobile_menu_button:before{
+        content: '';
+        display: block;
+        width: 60px;
+        height: 40px;
+        background: rgba(232,232,232,0.9);
+        border-radius: 4px;
+        position: absolute;
+        left: 5px;
+        top: 5px;
+        box-shadow: 0.125em 0.125em 0 0 rgba(0,0,0,0.15);
+    }
+    .mobile_menu_button:after{
+        content: '';
+        display: block;
+        width: 28px;
+        height: 24px;
+        position: absolute;
+        left: 25px;
+        top: 13px;
+        background: url('../images/mobile_menu.png') 0px 0px no-repeat;
+        opacity: 0.35;
+        background-size: contain;
+    } 
+    .right_hand_side{
+        width: 100%;
+    } 
+    .book_image, .methew_image, .john_image{  
+        width: 100%;
+        margin: 0;         
+        text-align: center;
+        float: none;
+    }
+    .methew_image img, .book_image img {
+        width: 90%;
+    }
+    .john_image img {
+        width: 70%;    
+    }
+
+    .mobile_left_nav{        
+        font-size: 12px;        
+        width: 80%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        color: #fff;
+        opacity: 0.9;
+        background-color: #222;
+        padding: 0 10px;
+        border-bottom-right-radius: 5px;
+        z-index: 10;
+    }
+
+    .mobile_left_nav *{
+        color: #EEE;
+    }
+
+    .mobile_left_nav ul li {
+        padding: 30px 0;
+    }
+
+    .mobile_left_nav ul li:last-child{
+        border:none;
+    }
+    .close{
+    font-family: 'Source Sans Pro';        
+        display: inline;
+        font-size: 36px;
+        float: right;
+    }
+}
+
+@media handheld, screen and (max-width: 800px) {
+    .left_nav ul li a{
+        font-size: 12px;
+    }
+    .main_heading {     
+        background-size: 200px auto; 
+        height: 34px;
+    }  
 }

@@ -19,7 +19,6 @@
 
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600|Arvo:700,400" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="/style/style.css">
-    <link rel="stylesheet" type="text/css" href="/style/mobile_style.css">
     <link rel="icon" type="image/png" href="/images/book_favicon.png" />    
 
 
@@ -27,8 +26,8 @@
     <script>
         PDFJS.workerSrc = '/js/pdf.worker.js';
     </script>
-    <script async src="/js/jquery.js"></script>        
-    <script async src="/js/main.js"></script>    
+    <script src="/js/jquery.js"></script>        
+    <script src="/js/main.js"></script>    
     
     <title>${title}</title>
 
