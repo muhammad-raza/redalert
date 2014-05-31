@@ -23,12 +23,12 @@
     <link rel="icon" type="image/png" href="/images/book_favicon.png" />    
 
 
-    <script src="/js/pdf.js"></script>
+    <script async src="/js/pdf.js"></script>
     <script>
         PDFJS.workerSrc = '/js/pdf.worker.js';
     </script>
-    <script src="/js/jquery.js"></script>        
-    <script src="/js/main.js"></script>    
+    <script async src="/js/jquery.js"></script>        
+    <script async src="/js/main.js"></script>    
     
     <title>${title}</title>
 
