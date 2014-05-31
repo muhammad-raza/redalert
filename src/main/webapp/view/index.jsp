@@ -21,11 +21,6 @@
     <link rel="stylesheet" type="text/css" href="/style/style.css">
     <link rel="icon" type="image/png" href="/images/book_favicon.png" />    
 
-
-    <script async src="/js/pdf.js"></script>
-    <script>
-        PDFJS.workerSrc = '/js/pdf.worker.js';
-    </script>
     <script src="/js/jquery.js"></script>        
     <script src="/js/main.js"></script>    
     
