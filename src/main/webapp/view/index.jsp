@@ -17,7 +17,6 @@
     <meta property="twitter:image" content="http://www.redalert.org.uk/images/book_thumbnail.png"/>
     <meta property="twitter:url" content="http://www.redalert.org.uk"/>
 
-    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600|Arvo:700,400" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="/style/style.css">
     <link rel="icon" type="image/png" href="/images/book_favicon.png" />    
 
