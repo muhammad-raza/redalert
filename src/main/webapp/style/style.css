@@ -111,7 +111,7 @@ input[type="text"], input[type="password"]{
     font-size: 16px;
 }
 
-.left_nav a, .review a, .anim {    
+.left_nav a, .review a, .anim, .links a {    
     -webkit-transition: color 0.3s ease;
     -moz-transition: color 0.3s ease;
     -o-transition: color 0.3s ease;
@@ -119,7 +119,7 @@ input[type="text"], input[type="password"]{
     transition: color 0.3s ease;
 }
 
-.left_nav a:hover, .review a:hover, .anim:hover{
+.left_nav a:hover, .review a:hover, .links a:hover, .anim:hover{
     font-weight: 700;
     color: #9E2645;
 
