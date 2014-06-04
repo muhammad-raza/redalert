@@ -1,9 +1,26 @@
 <h2>Money Laundering Cases and Materials for Money Laundering Prevention Professionals 2014 Edition - Issue 1</h2>
+<div class="main_book_container">
+    <div class="book_image">
+        <a href="/pdf/web/redalert.jsp#zoom=auto"><img class="the_book_image" src="/images/the_book.png"></a>        
+    </div>
 
-<div class="book_image">
-    <a href="/pdf/web/redalert.jsp#zoom=auto"><img class="the_book_image" src="/images/the_book.png"></a>
-    <a class="button read_online" ontouchstart="" href="/pdf/web/redalert.jsp#zoom=auto"><span>Read Online</span></a>
-</div>
+    <div class="links">
+        <div class="links_container">
+            <div class="links_heading">Overview</div>
+            <div class="links_contents">
+                <ul>
+                    <li><a href="/pdf/web/redalert.jsp#zoom=auto&page=12">What is Money Laundering?</a></li>
+                    <li><a href="/pdf/web/redalert.jsp#zoom=auto&page=11">Money Laundering Facts and Figures</a></li>
+                    <li><a href="/pdf/web/redalert.jsp#zoom=auto&page=8">5 Recommendations to effectively combat Money Laundering</a></li>
+                    <li><a href="/pdf/web/redalert.jsp#zoom=auto&page=70">Money Laundering Risks</a></li>
+                    <li><a href="/pdf/web/redalert.jsp#zoom=auto&page=342">Chronology of FI Major Enforcement Cases over the last 25 years</a></li>
+                </ul>
+            </div>
+        </div>    
+    </div>
+    <div class="clearfix"></div>    
+</div>  
+<a class="button read_online" ontouchstart="" href="/pdf/web/redalert.jsp#zoom=auto"><span>Read Online</span></a>
 
 <p>This Book is intended to serve as a comprehensive source of information for money laundering professionals that wish to better understand, establish or improve their money laundering, terrorist financing, fraud, sanctions, bribery and corruption prevention frameworks (hereafter referred to as money laundering). These issues are of utmost importance and increasingly so, as the international community is relying on money laundering professionals to assist in successfully preventing, detecting and reporting money laundering in order to fight the devastating economic and social consequences of these criminal activities.</p>
 
