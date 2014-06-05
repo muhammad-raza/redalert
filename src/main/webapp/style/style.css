@@ -29,6 +29,11 @@
   src: local('Source Sans Pro Semibold'), local('SourceSansPro-Semibold'), url(http://themes.googleusercontent.com/static/fonts/sourcesanspro/v7/toadOcfmlt9b38dHJxOBGCmgpmuQqK2I-L2S9cF65Ek.woff) format('woff');
 }
 
+*{
+    webkit-box-sizing: border-box; 
+    -moz-box-sizing: border-box;
+}
+
 body{
     padding: 10px;
     margin: 0;
@@ -51,14 +56,6 @@ a {
 
 a:hover {    
     text-decoration: underline;
-}
-
-.left_nav a {
-    outline: none;
-    color: #888;    
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    text-decoration: none;    
 }
 
 ul{
@@ -107,11 +104,52 @@ input[type="text"], input[type="password"]{
 
 }
 
-.left_nav a{
-    font-size: 16px;
+.left_nav{
+    position: relative;
+    width: 24%;
+    display: inline-block;
+    font-family: 'arvo';
+    color: #777;
+}
+.nav_list {
+    position: relative;
 }
 
-.left_nav a, .review a, .anim, .links a {    
+.nav_list.fixed {
+    position: fixed;
+    top: 0;
+}
+
+.left_nav li {   
+    list-style: none;    
+}
+
+.left_nav a {   
+    display: block;
+    padding: 20px 5px;
+    font-size: 16px;
+    outline: none;
+    color: #888;    
+    letter-spacing: 1px;
+    text-decoration: none;  
+    background-color: #FFFFFF;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border-bottom: 1px solid #f0f0f0;
+    -webkit-transition: color 0.3s ease, background-color 0.3s ease;
+    -moz-transition: color 0.3s ease, background-color 0.3s ease;
+    -o-transition: color 0.3s ease, background-color 0.3s ease;
+    -ms-transition: color 0.3s ease, background-color 0.3s ease;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.left_nav a:hover{
+    background-color: #f0f0f0;
+    color: #9E2645;
+}
+
+.review a, .anim {    
     -webkit-transition: color 0.3s ease;
     -moz-transition: color 0.3s ease;
     -o-transition: color 0.3s ease;
@@ -119,13 +157,16 @@ input[type="text"], input[type="password"]{
     transition: color 0.3s ease;
 }
 
-.left_nav a:hover, .review a:hover, .links a:hover, .anim:hover{
-    font-weight: 700;
+.review a:hover, .anim:hover, .tg a:hover{
     color: #9E2645;
-
 }
 
-.button {      
+a.button:hover {
+    text-decoration: none;
+}
+
+.button {  
+    margin-bottom: 10px;    
     display: block;
     width: 100%  
     -webkit-border-radius: 5px;
@@ -201,46 +242,10 @@ input[type="text"], input[type="password"]{
 }
 .book_image {
     cursor: pointer;
-    width: 45%;
+    width: 40%;
     float: left;
     text-align: center;
     padding-right: 10px;
-}
-
-.links {  
-    position: absolute;
-    right: 0;   
-    width: 48%;
-    height: 95%;
-    float: left;
-    text-align: left; 
-    border: 5px solid lightgray;
-    border-radius: 5px;
-}
-.links_contents ul {
-    margin-top: 10px;
-    padding-left: 10px;
-}
-.links_container, .links_contents, .links_contents ul{    
-    height: 100%;
-} 
-
-.links_heading {
-    text-align: center;
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
-    height: 30px;
-    line-height: 30px;
-    background-color: lightgray;
-}
-.links_contents li a {
-    font-size: 16px;
-}
-.links_contents li {    
-    margin-bottom: 20px;
-    line-height: 15px;    
-    list-style: none;
 }
 
 .signIn {
@@ -271,22 +276,9 @@ input[type="text"], input[type="password"]{
 }
 
 .line {
-    border: solid 1px #e5e5e5;
+    border: solid 1px #f0f0f0;
     margin-bottom: 7px;
     clear: both;
-}
-
-.left_nav{
-    width: 24%;
-    display: inline-block;
-    padding: 0 10px;
-    font-family: 'arvo';
-    color: #777;
-}
-.left_nav li {
-    border-bottom: solid 2px #e5e5e5;
-    padding: 30px 0;
-    list-style: none;
 }
 
 .mobile_menu{
@@ -299,14 +291,7 @@ input[type="text"], input[type="password"]{
 }
 
 .book_image img, .links .links_container {       
-    width: 100%;
-    box-shadow: none;
-    transition: width .2s ease-in-out, box-shadow .2s ease-in-out;
-}
-
-.book_image img:hover{ 
-    box-shadow: 0px 0px 15px gray;   
-    width: 100%;
+    width: 100%;    
 }
 
 .comma_open, .comma_close{
@@ -382,6 +367,59 @@ input[type="text"], input[type="password"]{
     display: none;
 }
 
+.tg  {
+    width: 56%;
+    border:2px solid #f0f0f0;
+    border-collapse:collapse;
+    border-spacing:0;
+    border-radius: 2px;        
+}
+.tg td{    
+    font-size:15px;    
+    border-style:solid;
+    border-width:0px;
+    overflow:hidden;
+    word-break:normal;
+    border-color:#ccc;
+    color:#333;
+    background-color:#fff;
+}
+.tg th{
+    font-size:15px;
+    font-weight:normal;
+    padding:10px 5px;
+    border-style:solid;
+    border-width:0px;
+    overflow:hidden;
+    word-break:normal;
+    border-color:#ccc;
+    color:#333;
+    background-color:#f0f0f0;
+}
+.tg .tg-s6z2{
+    text-align:center
+}
+
+.tg a {
+    border-bottom: 1px solid #f0f0f0;
+    display: block;
+    padding:10px 5px;
+    color: #551A8B;
+    -webkit-transition: color 0.3s ease, background-color 0.3s ease;
+    -moz-transition: color 0.3s ease, background-color 0.3s ease;
+    -o-transition: color 0.3s ease, background-color 0.3s ease;
+    -ms-transition: color 0.3s ease, background-color 0.3s ease;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+a.lastLink{
+    border: none;
+}
+
+.tg a:hover{
+    background-color: #f0f0f0;
+}
+
 
 
 
@@ -448,7 +486,11 @@ input[type="text"], input[type="password"]{
     .right_hand_side{
         width: 100%;
     } 
-    .book_image, .methew_image, .john_image{  
+    .tg {
+        width: 100%;
+        float: none;
+    }
+    .book_image, .methew_image, .john_image {  
         width: 100%;
         margin: 0;         
         text-align: center;
@@ -492,29 +534,14 @@ input[type="text"], input[type="password"]{
         font-size: 36px;
         float: right;
     }
-    .links {  
-        position: relative;        
-        width: 88%;    
-        margin: 8px 5% ;
-        float: none;            
-        text-align: left; 
-        border: 5px solid lightgray;
-        border-radius: 5px;
-    }
 }
 
 @media handheld, screen and (max-width: 800px) {
-    .left_nav ul li a{
+    .left_nav a{
         font-size: 12px;
     }
     .main_heading {     
         background-size: 200px auto; 
         height: 34px;
-    }
-    .links_contents li {
-        margin-bottom: 5px; 
-    }  
-    .links_contents li a {        
-        font-size: 12px;
     }
 }

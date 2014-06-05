@@ -10,6 +10,23 @@ $(function(){
 	$('.close').on('click', function(){
 		$('.mobile_left_nav').fadeOut(100);
 	});	
+	
+	var move = $('.upper_body').height()+10;
+	$(window).scroll(function(){        
+       if ($(window).scrollTop() > move){
+       		$(".nav_list").css('width', $(".nav_list").width()+'px');
+       		$(".nav_list").addClass('fixed');
+
+		}else{
+			$(".nav_list").css('width', '100%');
+			$(".nav_list").removeClass('fixed');
+		}
+    });
+
+    $( window ).resize(function() {
+  		$(".nav_list").css('width', '100%');
+		$(".nav_list").removeClass('fixed');
+	});
 });
 
 })(jQuery);

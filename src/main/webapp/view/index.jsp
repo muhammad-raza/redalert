@@ -72,7 +72,7 @@
     <div class="body_container">
         <div class="left_nav">
             <span class="close">X</span>
-            <ul>
+            <ul class="nav_list">
                 <li><a href="/">Read The Book</a></li>
                 <li><a href="/biography">About the author</a></li>
                 <li><a href="/matthew_cooper">Dedication to Matthew cooper</a></li>

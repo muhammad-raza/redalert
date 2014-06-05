@@ -178,7 +178,7 @@
 	<div><img class="comma_open" src="/images/comma_open.png">A compendium, a digest, a manifesto: 'Red Alert' represents an essential tool for anyone interested in Financial Crime. Whether you are an AML professional, an academic, a regulator, a consultant or just interested in knowing more about how money laundering works, how financial institutions are impacted by it and the ways they try to prevent and detect it, you will find this book invaluable. Written by one of the financial industry's most respected practitioners, it represents an excellent resource as well as advocating practical ways in which the fight against financial crime could be made more effective.<img class="comma_close" src="/images/comma_close.png"></div>
 
 	<div class="review_info">
-	<a href="http://fi.linkedin.com/pub/heidi-suila/17/580/3a0"><img class="review_img" src="../images/people/chris_davies.png"></a>		
+	<img class="review_img" src="../images/people/chris_davies.png">
 		<div class="name_info">
 			<a itemprop="author">Chris Davies</a>
 			<div>APAC General Counsel, SocGen, former SocGen Group Compliance Head and Wolfsberg Group Co-Chair (2010-2013)</div>
