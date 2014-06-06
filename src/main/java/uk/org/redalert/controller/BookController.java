@@ -6,7 +6,10 @@ import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import uk.org.redalert.dbmapping.UserEntity;
+import uk.org.redalert.email.Email;
 import uk.org.redalert.userdao.UserDAO;
+
+import java.io.UnsupportedEncodingException;
 
 @Controller
 public class BookController {
@@ -79,6 +82,12 @@ public class BookController {
         map.addAttribute("title", "Red Alert | Buy Or Download");
         map.addAttribute("description", "Buy or Download Money Laundering Cases and Materials");
         return INDEX;
+    }
+
+    @RequestMapping(value = "/email", method = RequestMethod.GET)
+    public String email(ModelMap map) {
+        new Email().send();
+        return "blank";
     }
 
     public void setUserDAO(UserDAO stockDAO) {
