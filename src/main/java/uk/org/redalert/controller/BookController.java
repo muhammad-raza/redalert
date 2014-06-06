@@ -22,6 +22,7 @@ public class BookController {
         map.addAttribute("userList", userDAO.getAllUsers());
         map.addAttribute(PAGE_NAME, "home.jsp");
         map.addAttribute("title", "Red Alert | Money Laundering Cases & Materials");
+        map.addAttribute("description", "his Book is intended to serve as a comprehensive source of information for money laundering professionals that wish to better understand, establish or improve their money laundering, terrorist financing, fraud, sanctions, bribery and corruption prevention frameworks (hereafter referred to as money laundering).");
         return INDEX;
     }
 //
@@ -35,6 +36,8 @@ public class BookController {
     public String biographyController(ModelMap map) {
         map.addAttribute(PAGE_NAME, "biography.jsp");
         map.addAttribute("title", "Red Alert | John Cusack");
+        map.addAttribute("description", "John Cusack is one of the World's longest serving Money Laundering Prevention Heads, joining UBS over 20 years ago, as a qualified English Lawyer, undertaking senior roles in both Legal and Compliance across much of the firm, including in Investment Banking, Correspondent and Commercial Banking and Retail Banking and Wealth Management.");
+        
         return INDEX;
     }
 
@@ -42,6 +45,8 @@ public class BookController {
     public String metthewController(ModelMap map) {
         map.addAttribute(PAGE_NAME, "matthew.jsp");
         map.addAttribute("title", "Red Alert | Matthew Cooper");
+        map.addAttribute("description", "Money Laundering Prevention is dedicated to the hardwork of all those involved in the money laundering prevention and in particular to one of its brightest sons, and so to the memory of MATTHEW COOPER.");
+
         return INDEX;
     }
 
@@ -49,6 +54,7 @@ public class BookController {
     public String reviewsController(ModelMap map) {
         map.addAttribute(PAGE_NAME, "reviews.jsp");
         map.addAttribute("title", "Red Alert | Book Reviews");
+        map.addAttribute("description", "22 professional book reviews for Money Laundering Cases and Materials");
         return INDEX;
     }
 
@@ -63,6 +69,7 @@ public class BookController {
     public String contactMeController(ModelMap map) {
         map.addAttribute(PAGE_NAME, "contact_me.jsp");
         map.addAttribute("title", "Red Alert | Contact Me");
+        map.addAttribute("description", "This Book has been created to encourage discussion and comment. If you have questions comments or opinions please don't hesitate to contact me. I can be contacted at Jpcusack78@gmail.com.");        
         return INDEX;
     }
 
@@ -70,6 +77,7 @@ public class BookController {
     public String buyOrDownloadController(ModelMap map) {
         map.addAttribute(PAGE_NAME, "buy_or_download.jsp");
         map.addAttribute("title", "Red Alert | Buy Or Download");
+        map.addAttribute("description", "Buy or Download Money Laundering Cases and Materials");
         return INDEX;
     }
 

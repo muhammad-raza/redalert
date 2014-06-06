@@ -4,24 +4,6 @@
         <a class="button read_online" ontouchstart="" href="/pdf/web/redalert.jsp#zoom=auto"><span>Read Online</span></a>        
     </div>
 
-<!--     <div class="links">
-        <div class="links_container">
-            <div class="links_heading">Overview</div>
-            <div class="links_contents">
-                <ul>
-                    <li><a href="/pdf/web/redalert.jsp#zoom=auto&page=12">What is Money Laundering?</a></li>
-                    <li><a href="/pdf/web/redalert.jsp#zoom=auto&page=11">Money Laundering Facts and Figures</a></li>
-                    <li><a href="/pdf/web/redalert.jsp#zoom=auto&page=8">5 Recommendations to effectively combat Money Laundering</a></li>
-                    <li><a href="/pdf/web/redalert.jsp#zoom=auto&page=70">Money Laundering Risks</a></li>
-                    <li><a href="/pdf/web/redalert.jsp#zoom=auto&page=342">Chronology of FI Major Enforcement Cases over the last 25 years</a></li>
-                </ul>
-            </div>
-        </div>    
-    </div>
-    <div class="clearfix"></div>    --> 
-
-
-
         <table class="tg">
             <tr>
             <th class="tg-s6z2">Overview</th>
