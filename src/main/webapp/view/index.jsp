@@ -91,7 +91,7 @@
 </div>
 
 
-    <div class="left_nav mobile_left_nav">
+    <div class="mobile_left_nav">
             <span class="close">X</span>
             <ul>
                 <li><a href="/">Read The Book</a></li>

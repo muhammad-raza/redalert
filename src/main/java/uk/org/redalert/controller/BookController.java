@@ -1,15 +1,18 @@
 package uk.org.redalert.controller;
 
+import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 import uk.org.redalert.dbmapping.UserEntity;
 import uk.org.redalert.email.Email;
+import uk.org.redalert.email.EmailContent;
 import uk.org.redalert.userdao.UserDAO;
-
-import java.io.UnsupportedEncodingException;
 
 @Controller
 public class BookController {
@@ -28,12 +31,6 @@ public class BookController {
         map.addAttribute("description", "his Book is intended to serve as a comprehensive source of information for money laundering professionals that wish to better understand, establish or improve their money laundering, terrorist financing, fraud, sanctions, bribery and corruption prevention frameworks (hereafter referred to as money laundering).");
         return INDEX;
     }
-//
-//    @RequestMapping(value = "/table_of_contents", method = RequestMethod.GET)
-//    public String topicsController(ModelMap map) {
-//        map.addAttribute(PAGE_NAME, "contents.jsp");
-//        return INDEX;
-//    }
 
     @RequestMapping(value = "/biography", method = RequestMethod.GET)
     public String biographyController(ModelMap map) {
@@ -69,10 +66,22 @@ public class BookController {
     }
 
     @RequestMapping(value = "/contact_me", method = RequestMethod.GET)
-    public String contactMeController(ModelMap map) {
+    public String contactMeController(@ModelAttribute("email") EmailContent emailContent,
+                                      ModelMap map) {
         map.addAttribute(PAGE_NAME, "contact_me.jsp");
+
         map.addAttribute("title", "Red Alert | Contact Me");
-        map.addAttribute("description", "This Book has been created to encourage discussion and comment. If you have questions comments or opinions please don't hesitate to contact me. I can be contacted at Jpcusack78@gmail.com.");        
+        map.addAttribute("description", "This Book has been created to encourage discussion and comment. If you have questions comments or opinions please don't hesitate to contact me. I can be contacted at Jpcusack78@gmail.com.");
+        if (emailContent.hasContents()) {
+            if (emailContent.isStatus()) {
+                map.addAttribute("statusMessage", "Message Sent !");
+                map.addAttribute("status", "");
+            } else {
+                map.addAttribute("emailContent", emailContent);
+                map.addAttribute("status", "error");
+                map.addAttribute("statusMessage", "Message Failed. Please try again after some time.");
+            }
+        }
         return INDEX;
     }
 
@@ -84,10 +93,23 @@ public class BookController {
         return INDEX;
     }
 
-    @RequestMapping(value = "/email", method = RequestMethod.GET)
-    public String email(ModelMap map) {
-        new Email().send();
-        return "blank";
+    @RequestMapping(value = "/email", method = RequestMethod.POST)
+    public String email(
+        @RequestParam("name") String name,
+        @RequestParam("email") String email, 
+        @RequestParam("message") String message,
+        RedirectAttributes redirectAttributes) {
+
+        boolean status = false;
+        EmailContent emailContent = new EmailContent(name,email, message);
+        if (StringUtils.isNotBlank(name) && StringUtils.isNotBlank(email) &&
+                StringUtils.isNotBlank(message) && name.length() < 25 &&
+                email.length() < 40 && message.length() < 150){
+            status = new Email(emailContent).send();
+        }
+        emailContent.setStatus(status);
+        redirectAttributes.addFlashAttribute("email", emailContent);
+        return "redirect:/contact_me";
     }
 
     public void setUserDAO(UserDAO stockDAO) {
