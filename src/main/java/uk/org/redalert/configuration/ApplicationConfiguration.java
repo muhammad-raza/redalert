@@ -1,6 +1,7 @@
 package uk.org.redalert.configuration;
 
 import org.apache.commons.dbcp.BasicDataSource;
+import org.apache.commons.lang.StringUtils;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -54,13 +55,18 @@ public class ApplicationConfiguration extends WebMvcConfigurerAdapter{
         try {
             String url = ApplicationProperties.DATABASE_URL.getValue();
             URI dbUri = new URI(url);
+
             String[] UserInfo = dbUri.getUserInfo().split(":");
             String username = UserInfo[0];
             String password = UserInfo[1];
             String dbUrl = "jdbc:postgresql://" + dbUri.getHost() + ":" + dbUri.getPort() + dbUri.getPath();
 
             ds.setDriverClassName(ApplicationProperties.PSQL_DRIVER.getValue());
-            ds.setUrl(dbUrl);
+            String query = "";
+            if (StringUtils.isNotBlank(dbUri.getQuery())){
+                query = "?"+dbUri.getQuery();
+            }
+            ds.setUrl(dbUrl+query);
             ds.setUsername(username);
             ds.setPassword(password);
 

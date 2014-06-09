@@ -6,6 +6,6 @@
 <hibernate-configuration>
     <session-factory>
         <property name="current_session_context_class">thread</property>
-        <mapping class="uk.org.redalert.dbmapping.UserEntity" />
+        <mapping class="uk.org.redalert.dbmapping.AdminEntity" />
     </session-factory>
 </hibernate-configuration>

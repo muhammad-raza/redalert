@@ -73,3 +73,40 @@ a hundred battles. If you know yourself but not the enemy, for every victory gai
 <div class="more">
     <a href="/book_reviews" ontouchstart="" class="button"><span>More&hellip;</span></a>
 </div>  
+
+<div class="line"></div>
+<div class="line"></div>
+
+<!-- <h2>Leave Your Comment</h2>
+<p>This Book has been created to encourage discussion and comment. If you have questions comments or opinions please leave it here or <a href="/contact_me">send me personal message.</a></p>
+
+<p>Your email address will not be published. Required fields are marked *</p>
+
+<div class="form_container">
+    <div class="status ${status}">${statusMessage}</div>
+    <form id="commentForm" action="/email" method="post"> 
+        <div class="comment">
+            <div class="name_input comment">
+                <input name="name" id="nameInput" placeholder="Name *" type="text" class="text" maxlength="25">
+            </div>
+            <div class="email_input comment">
+                <input name="email" id="emailInput" placeholder="Email *" type="text" class="text" maxlength="40">
+            </div>
+
+            <div class="profession_input comment">
+                <input name="profession" id="professionInput" placeholder="Profession" type="text" class="text" maxlength="100">
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        
+        <div class="message_input">
+            <textarea name="message" id="messageInput" class="message" placeholder="Message *" maxlength="250">${emailContent.getMessage()}</textarea>
+            <div>Max: 250 words</div>
+        </div>      
+        <div class="send_email">
+            <a id="sendEmailButton" class="button" ontouchstart="" href=""><span>Post Comment</span></a>
+        </div>  
+    </form>
+
+</div>
+ -->

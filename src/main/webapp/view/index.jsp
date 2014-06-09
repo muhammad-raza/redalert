@@ -83,13 +83,12 @@
         </div>
         
         <div class="right_hand_side">
-            <jsp:include page="${pageName}" />            
+            <jsp:include page="${pageName}" />                        
         </div>
     
     </div>
 
 </div>
-
 
     <div class="mobile_left_nav">
             <span class="close">X</span>

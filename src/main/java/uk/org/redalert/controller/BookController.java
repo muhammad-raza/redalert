@@ -9,10 +9,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
-import uk.org.redalert.dbmapping.UserEntity;
+import uk.org.redalert.dbmapping.AdminEntity;
 import uk.org.redalert.email.Email;
 import uk.org.redalert.email.EmailContent;
-import uk.org.redalert.userdao.UserDAO;
+import uk.org.redalert.admindao.AdminDAO;
+
+import javax.servlet.http.HttpSession;
+import java.util.List;
 
 @Controller
 public class BookController {
@@ -20,12 +23,10 @@ public class BookController {
     private final String PAGE_NAME = "pageName";
 
     @Autowired
-    private UserDAO userDAO;
+    private AdminDAO adminDAO;
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String homeController(ModelMap map) {
-        map.addAttribute("user", new UserEntity());
-        map.addAttribute("userList", userDAO.getAllUsers());
         map.addAttribute(PAGE_NAME, "home.jsp");
         map.addAttribute("title", "Red Alert | Money Laundering Cases & Materials");
         map.addAttribute("description", "his Book is intended to serve as a comprehensive source of information for money laundering professionals that wish to better understand, establish or improve their money laundering, terrorist financing, fraud, sanctions, bribery and corruption prevention frameworks (hereafter referred to as money laundering).");
@@ -104,7 +105,7 @@ public class BookController {
         EmailContent emailContent = new EmailContent(name,email, message);
         if (StringUtils.isNotBlank(name) && StringUtils.isNotBlank(email) &&
                 StringUtils.isNotBlank(message) && name.length() < 25 &&
-                email.length() < 40 && message.length() < 150){
+                email.length() < 40 && message.length() < 250){
             status = new Email(emailContent).send();
         }
         emailContent.setStatus(status);
@@ -112,7 +113,56 @@ public class BookController {
         return "redirect:/contact_me";
     }
 
-    public void setUserDAO(UserDAO stockDAO) {
-        this.userDAO = stockDAO;
+    @RequestMapping(value = "/internal/admin_login", method = RequestMethod.POST)
+    public String adminLoginValidation(
+            @RequestParam("username") String username,
+            @RequestParam("password") String password,
+            HttpSession session) {
+        if (StringUtils.isNotBlank(username) && username.length() < 25 &&
+                StringUtils.isNotBlank(password) && password.length() < 40){
+            List<AdminEntity> listAdmins = adminDAO.getAdmin(username, password);
+            AdminEntity admin;
+            if (listAdmins.size() > 0){
+                admin = adminDAO.getAdmin(username, password).get(0);
+                session.setAttribute("loggedin", true);
+                session.setAttribute("logginError", false);
+                return "redirect:/internal/dashboard";
+            }else{
+                session.setAttribute("logginError", true);
+                session.setAttribute("loggedin", false);
+                return "redirect:/internal/admin";
+            }
+
+        }
+        return INDEX;
+    }
+
+    @RequestMapping(value = "/internal/admin", method = RequestMethod.GET)
+    public String adminLogin(ModelMap map, HttpSession session) {
+        if (session.getAttribute("loggedin") != null && (Boolean)session.getAttribute("loggedin")){
+            return "redirect:/internal/dashboard";
+        } else if(session.getAttribute("logginError") != null &&(Boolean)session.getAttribute("logginError")){
+            map.addAttribute("statusMessage", "Error Logging in. Please try again.");
+            map.addAttribute("status", "error");
+        }
+        map.addAttribute(PAGE_NAME, "admin_login.jsp");
+        map.addAttribute("title", "Red Alert | Admin");
+        map.addAttribute("description", "Login to your website");
+        return INDEX;
+    }
+
+    @RequestMapping(value = "/internal/dashboard", method = RequestMethod.GET)
+    public String adminDashboard(ModelMap map, HttpSession session) {
+        if (session.getAttribute("loggedin") == null || (session.getAttribute("loggedin") != null && !(Boolean)session.getAttribute("loggedin"))){
+            return "redirect:/internal/admin";
+        }
+        map.addAttribute(PAGE_NAME, "home.jsp");
+        map.addAttribute("title", "Red Alert | Admin");
+        map.addAttribute("description", "Login to your website");
+        return INDEX;
+    }
+
+    public void setAdminDAO(AdminDAO adminDAO) {
+        this.adminDAO = adminDAO;
     }
 }

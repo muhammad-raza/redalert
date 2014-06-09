@@ -1,4 +1,4 @@
-package uk.org.redalert.userdao;
+package uk.org.redalert.admindao;
 
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
@@ -6,22 +6,24 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 import org.hibernate.Session;
-import uk.org.redalert.dbmapping.UserEntity;
+import uk.org.redalert.dbmapping.AdminEntity;
 
 import java.util.List;
 
 @Transactional
 @Repository
-public class UserImpl implements UserDAO {
+public class AdminImpl implements AdminDAO {
 
     @Autowired private SessionFactory sessionFactory;
+
     @SuppressWarnings("unchecked")
     @Override
-    public List<UserEntity> getAllUsers() {
+    public List<AdminEntity> getAdmin(String username, String password) {
         Session session = this.sessionFactory.getCurrentSession();
         Transaction tx = session.beginTransaction();
-        List<UserEntity> listOfStock =  session.createQuery("from UserEntity").list();
+        String query = String.format("from AdminEntity where username='%s' and password=md5('%s')", username, password);
+        List<AdminEntity> admin= session.createQuery(query).list();
         tx.commit();
-        return listOfStock;
+        return admin;
     }
 }

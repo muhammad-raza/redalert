@@ -1,12 +1,13 @@
 package uk.org.redalert.email;
 
 import com.sendgrid.*;
+import uk.org.redalert.application.ApplicationProperties;
 
 public class Email {
 
     private final EmailContent emailContent;
     private final String SUBJECT = "Message From redalert.org.uk";
-    private final String TO_EMAIL = "mr.muhammad.raza86@gmail.com";
+    private final String TO_EMAIL = ApplicationProperties.TO_EMAIL.getValue();
     private final String USERNAME = "app25332788@heroku.com";
     private final String PASSWORD = "xg6tz7jp";
 

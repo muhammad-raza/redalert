@@ -9,6 +9,7 @@ import java.util.Properties;
 public enum ApplicationProperties {
     PORT,
     DATABASE_URL,
+    TO_EMAIL,
     HIBERNATE_DIALECT("hibernate.dialect"),
     HIBERNATE_SHOW_SQL("hibernate.show_sql"),
     HIBERNATE_HM2DLL_AUTO("hibernate.hbm2ddl.auto"),

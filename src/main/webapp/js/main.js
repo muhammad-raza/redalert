@@ -41,6 +41,11 @@ $(function(){
 		return !!message && message != "" && message.length < 150;
 	}
 
+	$('#adminLogin').on('click', function(e){
+		e.preventDefault();
+		$('#adminForm').submit();
+	});
+
 	$('#sendEmailButton').on('click', function(e){
 		e.preventDefault();		
 		var error, el, name = $('#nameInput')[0].value, email = $('#emailInput')[0].value,
