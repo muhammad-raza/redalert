@@ -38,7 +38,7 @@ $(function(){
 	}
 
 	function validateMessage(message){
-		return !!message && message != "" && message.length < 150;
+		return !!message && message != "" && message.length < 250;
 	}
 
 	$('#adminLogin').on('click', function(e){
