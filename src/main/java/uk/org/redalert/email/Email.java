@@ -6,7 +6,6 @@ import uk.org.redalert.application.ApplicationProperties;
 public class Email {
 
     private final EmailContent emailContent;
-    private final String SUBJECT = "Message From redalert.org.uk";
     private final String TO_EMAIL = ApplicationProperties.TO_EMAIL.getValue();
     private final String USERNAME = "app25332788@heroku.com";
     private final String PASSWORD = "xg6tz7jp";
@@ -22,7 +21,7 @@ public class Email {
         email.addTo(TO_EMAIL);
         email.setFromName(emailContent.getName());
         email.setFrom(emailContent.getEmail());
-        email.setSubject(SUBJECT);
+        email.setSubject(emailContent.getSubject());
         email.setText(emailContent.getMessage());
 
         boolean response = false;

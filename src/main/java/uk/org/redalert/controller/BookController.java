@@ -4,18 +4,21 @@ import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
+import uk.org.redalert.commentsdao.CommentsDAO;
 import uk.org.redalert.dbmapping.AdminEntity;
+import uk.org.redalert.dbmapping.CommentEntity;
 import uk.org.redalert.email.Email;
 import uk.org.redalert.email.EmailContent;
 import uk.org.redalert.admindao.AdminDAO;
 
+import javax.print.DocFlavor;
 import javax.servlet.http.HttpSession;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
 import java.util.List;
+import java.util.TimeZone;
 
 @Controller
 public class BookController {
@@ -24,9 +27,13 @@ public class BookController {
 
     @Autowired
     private AdminDAO adminDAO;
+    @Autowired
+    private CommentsDAO commentsDAO;
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String homeController(ModelMap map) {
+        List<CommentEntity> comments = commentsDAO.getAllComments();
+        map.addAttribute("comments", comments);
         map.addAttribute(PAGE_NAME, "home.jsp");
         map.addAttribute("title", "Red Alert | Money Laundering Cases & Materials");
         map.addAttribute("description", "his Book is intended to serve as a comprehensive source of information for money laundering professionals that wish to better understand, establish or improve their money laundering, terrorist financing, fraud, sanctions, bribery and corruption prevention frameworks (hereafter referred to as money laundering).");
@@ -38,7 +45,7 @@ public class BookController {
         map.addAttribute(PAGE_NAME, "biography.jsp");
         map.addAttribute("title", "Red Alert | John Cusack");
         map.addAttribute("description", "John Cusack is one of the World's longest serving Money Laundering Prevention Heads, joining UBS over 20 years ago, as a qualified English Lawyer, undertaking senior roles in both Legal and Compliance across much of the firm, including in Investment Banking, Correspondent and Commercial Banking and Retail Banking and Wealth Management.");
-        
+
         return INDEX;
     }
 
@@ -97,12 +104,12 @@ public class BookController {
     @RequestMapping(value = "/email", method = RequestMethod.POST)
     public String email(
         @RequestParam("name") String name,
-        @RequestParam("email") String email, 
+        @RequestParam("email") String email,
         @RequestParam("message") String message,
         RedirectAttributes redirectAttributes) {
 
         boolean status = false;
-        EmailContent emailContent = new EmailContent(name,email, message);
+        EmailContent emailContent = new EmailContent(name,email, message, "Mmail");
         if (StringUtils.isNotBlank(name) && StringUtils.isNotBlank(email) &&
                 StringUtils.isNotBlank(message) && name.length() < 25 &&
                 email.length() < 40 && message.length() < 250){
@@ -121,9 +128,7 @@ public class BookController {
         if (StringUtils.isNotBlank(username) && username.length() < 25 &&
                 StringUtils.isNotBlank(password) && password.length() < 40){
             List<AdminEntity> listAdmins = adminDAO.getAdmin(username, password);
-            AdminEntity admin;
             if (listAdmins.size() > 0){
-                admin = adminDAO.getAdmin(username, password).get(0);
                 session.setAttribute("loggedin", true);
                 session.setAttribute("logginError", false);
                 return "redirect:/internal/dashboard";
@@ -156,13 +161,74 @@ public class BookController {
         if (session.getAttribute("loggedin") == null || (session.getAttribute("loggedin") != null && !(Boolean)session.getAttribute("loggedin"))){
             return "redirect:/internal/admin";
         }
-        map.addAttribute(PAGE_NAME, "home.jsp");
+        List<CommentEntity> comments = commentsDAO.getAllComments();
+        map.addAttribute(PAGE_NAME, "dashboard.jsp");
         map.addAttribute("title", "Red Alert | Admin");
-        map.addAttribute("description", "Login to your website");
+        map.addAttribute("description", "Admin dashboard");
+        map.addAttribute("comments", comments);
         return INDEX;
     }
 
+    @RequestMapping(value = "/ajax/comment", method = RequestMethod.POST, produces = "text/plain")
+    @ResponseBody
+    public String homeComment(@RequestParam("name") String name,
+                               @RequestParam("email") String email,
+                               @RequestParam("message") String message,
+                               ModelMap map, HttpSession session) {
+        CommentEntity comment = new CommentEntity();
+        if (session.getAttribute("alreadyCommented") !=null && (Boolean)session.getAttribute("alreadyCommented")){
+            return "alreadyCommented";
+        }
+        if (StringUtils.isNotBlank(name) && StringUtils.isNotBlank(email) &&
+                StringUtils.isNotBlank(message) && name.length() < 25 &&
+                email.length() < 40 && message.length() < 250){
+            Calendar cal = Calendar.getInstance();
+            SimpleDateFormat dateformat = new SimpleDateFormat("dd/MM/yyyy HH:mm z");
+            String currentTime = dateformat.format(cal.getTime());
+
+            comment.setName(name);
+            comment.setEmail(email);
+            comment.setTime(currentTime);
+            comment.setComment(message);
+            comment.setApproved(0);
+            commentsDAO.addComment(comment);
+//            new Email(new EmailContent(name, email, message, "Message")).send();
+            session.setAttribute("alreadyCommented", true);
+            return "passed";
+        }
+        return "failed";
+    }
+
+
+    @RequestMapping(value = "/ajax/comment/{id}", method = RequestMethod.POST, produces = "text/plain")
+    @ResponseBody
+    public String homeComment(@PathVariable("id") int commentId,
+                              @RequestParam("action") String action,
+                              HttpSession session) {
+        if (action.equalsIgnoreCase("delete")){
+            commentsDAO.deleteComment(commentId);
+            return "deleted";
+        } else if(action.equalsIgnoreCase("allow")){
+            commentsDAO.updateComment(commentId, 1);
+            return "allowed";
+        } else if(action.equalsIgnoreCase("disallow")){
+            commentsDAO.updateComment(commentId, 0);
+            return "disallowed";
+        }
+
+
+        session.setAttribute("alreadyCommented", true);
+        return "passed";
+
+    }
+
+
+
     public void setAdminDAO(AdminDAO adminDAO) {
         this.adminDAO = adminDAO;
+    }
+
+    public void setCommentsDAO(CommentsDAO commentsDAO) {
+        this.commentsDAO = commentsDAO;
     }
 }

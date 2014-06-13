@@ -7,5 +7,6 @@
     <session-factory>
         <property name="current_session_context_class">thread</property>
         <mapping class="uk.org.redalert.dbmapping.AdminEntity" />
+        <mapping class="uk.org.redalert.dbmapping.CommentEntity" />
     </session-factory>
 </hibernate-configuration>

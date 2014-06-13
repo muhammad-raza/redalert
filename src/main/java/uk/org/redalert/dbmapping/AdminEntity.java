@@ -6,13 +6,14 @@ import javax.persistence.*;
 public class AdminEntity {
 
     @Id
-    @Column(name="id")
+    @GeneratedValue
+    @Column(name="id", nullable = false)
     private int id;
 
-    @Column(name="username")
+    @Column(name="username", nullable = false)
     private String username;
 
-    @Column(name="password")
+    @Column(name="password", nullable = false)
     private String password;
 
     public int getId() {

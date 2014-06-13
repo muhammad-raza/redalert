@@ -460,7 +460,7 @@ a.lastLink{
     height: 100px;
 }
 
-.send_email{
+.post_button{
     width: 40%;
 }
 .status{
@@ -479,14 +479,83 @@ a.lastLink{
     margin: 10px 0;
 }
 
-.name_input.comment, .email_input.comment{
-    display: block;
-    padding: 0;
-    margin-bottom: 10px; 
-}
-
 .max_words {
     margin-top: 2px;
+}
+
+.blue{
+    color: blue;
+}
+.leave_comment {
+    -moz-transition: max-height 0.5s ease;
+    -o-transition: max-height 0.5s ease;
+    -ms-transition: max-height 0.5s ease;
+    transition: max-height 0.5s ease;
+    overflow: hidden;
+    border-bottom: 2px solid #f0f0f0;
+    margin: 10px 0;
+    font-weight: 300;
+    max-height:200px;
+}
+.comment_name {
+    font-weight: 400;
+    padding: 0 10px;
+    display: inline;
+}
+.comment_time {
+    display: inline;
+    font-size: 12px;
+}
+.comment_image_src{
+    width: 40px;
+}
+
+.comment_image{
+    float: left;
+}
+
+.simpleButtonDelete, .simpleButtonGreen, .simpleButtonRed{
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 5px 10px;    
+}
+
+.simpleButtonGreen {
+    color: white;
+    background-color: green;
+}
+
+.simpleButtonRed {
+    color: white;
+    background-color: #990000;
+}
+
+.simpleButtonDelete:hover {
+    border: 1px solid #A0A0A0;
+    background: #f0f0f0;
+    cursor: pointer;
+}
+
+.simpleButtonGreen:hover{    
+    background: #00aa00;
+    cursor: pointer;   
+}
+
+.simpleButtonRed:hover{    
+    background: #cc0000;
+    cursor: pointer;   
+}
+
+.buttonHolder{
+    margin-bottom: 15px;
+}
+
+.displayNone{
+    display: none;
+}
+
+.about_link{
+    text-decoration: underline;
 }
 
 
@@ -619,7 +688,7 @@ a.lastLink{
         padding: 0;
         margin-top: 10px;
     }
-    .send_email{
+    .post_button{
         width: 100%;
     }
 }
@@ -645,7 +714,7 @@ a.lastLink{
     .message_input .message, .profession_input .text {
         padding-left: 10px;
     }
-    .send_email{
+    .post_button{
         width: 100%;
     }
 

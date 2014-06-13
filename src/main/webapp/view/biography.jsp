@@ -9,4 +9,6 @@
 
 <p>John Cusack has recently agreed to take up a similar position at Standard Chartered Bank PLC as Global Financial Crime Head which will commence later in 2014.</p>
 
+<a class="about_link" target="_blank" href="https://www.sc.com/en/news-and-media/news/global/2014-05-28-John-Cusack-appointment.html">Standard Chartered appoints John Cusack as Global Head, Financial Crime Compliance.</a>
+
 <p>John Cusack has acted as a Chairman and has been a constant member of the industry leading Wolfsberg Group of International Banks for more than 10 years and has led and contributed to numerous Wolfbserg initiatives. He has regularly provided advice to law and policy makers, law enforcement agencies and colleagues in the private sector.</p>

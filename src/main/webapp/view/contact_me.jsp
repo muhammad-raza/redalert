@@ -21,7 +21,7 @@
 			<textarea name="message" id="messageInput" class="message" placeholder="Message *" maxlength="250">${emailContent.getMessage()}</textarea>
 			<p class="max_words">Max: 250 words</p>
 		</div>		
-		<div class="send_email">
+		<div class="post_button">
 			<a id="sendEmailButton" class="button" ontouchstart="" href=""><span>Send Email</span></a>
 		</div>	
 	</form>

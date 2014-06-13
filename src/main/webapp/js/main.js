@@ -46,8 +46,7 @@ $(function(){
 		$('#adminForm').submit();
 	});
 
-	$('#sendEmailButton').on('click', function(e){
-		e.preventDefault();		
+	function validateCompleteForm(){
 		var error, el, name = $('#nameInput')[0].value, email = $('#emailInput')[0].value,
 		message = $('#messageInput')[0].value;
 		if (!validateName(name)){
@@ -71,14 +70,92 @@ $(function(){
 			$('.status').addClass('error');
 			el.addClass('error');
 			$('.status').html(error);
+			return false;
 		}else{			
 			$('.status').removeClass('error');
 			$('.status').html('');
 			$('#nameInput').removeClass('error');
 			$('#emailInput').removeClass('error');
 			$('#messageInput').removeClass('error');			
-			$('#emailForm').submit();			
-		}		
+			return true;
+			
+		}	
+	}
+
+	$('#sendEmailButton').on('click', function(e){
+		e.preventDefault();		
+		var isValidate = validateCompleteForm();
+		if (isValidate){
+			$('#emailForm').submit();
+		}
+	});
+	
+	$('#sendCommentButton').on('click', function(e){
+		e.preventDefault();		
+		var isValidate = validateCompleteForm();		
+		if (isValidate){			
+			$.ajax({
+                url: $("#commentForm").attr( "action"),
+                type: 'POST',
+                data: $('#commentForm').serialize(),
+                success: function (returnData) {
+                    if(returnData === 'passed'){
+                    	$('.status').html("*Your comment is wating author's approval*");						
+                    	$('.status').removeClass('error');
+                    }else if (returnData === "failed"){
+                    	$('.status').html("Some error has occured. please try again later.");
+                    	$('.status').addClass('error');
+                    }else if(returnData === 'alreadyCommented'){
+                    	$('.status').html("You have already commented. Your comment will be reviewed by author. please wait for a while before commenting again");						
+                    	$('.status').addClass('error');
+                    }
+                },
+                error: function () {
+                    alert("error");
+                }
+            });
+
+		}
+	});
+	
+	function adminFunction(el){
+		var action = el.html(), commentId = el.data('commentid'),
+		comment = el.parent().parent()[0];
+		$.ajax({
+            url: '/ajax/comment/'+commentId,
+            type: 'POST',
+            data: {action: action},
+            success: function (returnData) {
+                if(returnData === 'deleted'){                	                	
+                	$(comment).css('max-height', '0');
+                	alert("Comment Deleted");
+                }else if (returnData === "allowed"){                	
+                	el.addClass('displayNone');
+                	$(comment).find('.simpleButtonRed').removeClass('displayNone');                	
+                	alert("Comment Allowed");
+                }else if(returnData === 'disallowed'){                	
+                	el.addClass('displayNone');  
+                	$(comment).find('.simpleButtonGreen').removeClass('displayNone');
+                	console.debug();              	
+                	alert("Comment DisAllowed");
+                }
+            },
+            error: function () {
+                alert("Error has occured. Please try again later.");
+            }
+        });
+	}
+
+	$('.simpleButtonDelete').on('click', function(){
+		adminFunction($(this));
+	});
+
+	$('.simpleButtonRed').on('click', function(){		
+		adminFunction($(this));
+	});
+
+	$('.simpleButtonGreen').on('click', function(){
+		adminFunction($(this));
 	});
 
 });
