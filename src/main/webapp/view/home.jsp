@@ -2,7 +2,7 @@
 
 <h2>Money Laundering Cases and Materials for Money Laundering Prevention Professionals 2014 Edition - Issue 1</h2>
     <div class="book_image">
-        <a href="/pdf/web/redalert.jsp#zoom=auto"><img class="the_book_image" src="/images/the_book.png"></a>
+        <a href="/book_sample?page=1"><img class="the_book_image" src="/images/the_book.png"></a>
         <a class="button read_online" ontouchstart="" href="/book_sample?page=1"><span>Read Sample</span></a>        
     </div>
 
