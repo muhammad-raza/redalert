@@ -574,14 +574,12 @@ a.lastLink{
     height: 100%;
 }
 .click_here{
+    display: block;
     font-weight: bold;
     padding-left: 10px;
     height: 40px;
     line-height: 40px;
     background-color: #F5F6CE;
-}
-.click_here > a{
-    color: blue;
 }
 .bodyZero{
     margin: 0;
@@ -745,6 +743,9 @@ a.lastLink{
     }
     .post_button{
         width: 100%;
+    }
+    .click_here{
+        font-size: 12px;
     }
 
 }

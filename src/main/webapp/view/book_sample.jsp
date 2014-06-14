@@ -40,7 +40,7 @@
     
 </head>
 <body class="bodyZero">
-	<div class="click_here">This is sample of book, please <a href="/contact_me">click here</a> to ask author for full version.</div>
+	<a href="/contact_me" class="click_here">This is sample of book. Click here to ask author for full version.</a>
 	<div class="iframe_inner_container">
 		<iframe class="bookSample" src="/view/red_alert_sample.pdf#page=${pageNum}"></iframe>
 	</div>	
