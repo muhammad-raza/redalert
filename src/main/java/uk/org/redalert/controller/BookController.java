@@ -73,6 +73,14 @@ public class BookController {
         return INDEX;
     }
 
+    @RequestMapping(value = "/book_sample", method = RequestMethod.GET)
+    public String bookSampleController(@RequestParam("page") String page, ModelMap map) {
+        map.addAttribute(PAGE_NAME, "request_test.jsp");
+        map.addAttribute("title", "Red Alert | Request A Test");
+        map.addAttribute("pageNum", page);
+        return "book_sample";
+    }
+
     @RequestMapping(value = "/contact_me", method = RequestMethod.GET)
     public String contactMeController(@ModelAttribute("email") EmailContent emailContent,
                                       ModelMap map) {
@@ -192,7 +200,7 @@ public class BookController {
             comment.setComment(message);
             comment.setApproved(0);
             commentsDAO.addComment(comment);
-//            new Email(new EmailContent(name, email, message, "Message")).send();
+            new Email(new EmailContent(name, email, message, "Message")).send();
             session.setAttribute("alreadyCommented", true);
             return "passed";
         }

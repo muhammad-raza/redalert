@@ -3,7 +3,7 @@
 <h2>Money Laundering Cases and Materials for Money Laundering Prevention Professionals 2014 Edition - Issue 1</h2>
     <div class="book_image">
         <a href="/pdf/web/redalert.jsp#zoom=auto"><img class="the_book_image" src="/images/the_book.png"></a>
-        <a class="button read_online" ontouchstart="" href="/pdf/web/redalert.jsp#zoom=auto"><span>Read Online</span></a>        
+        <a class="button read_online" ontouchstart="" href="/book_sample?page=1"><span>Read Sample</span></a>        
     </div>
 
         <table class="tg">
@@ -11,19 +11,19 @@
             <th class="tg-s6z2">Overview</th>
             </tr>
             <tr>
-            <td class="tg-031e"><a href="/pdf/web/redalert.jsp#zoom=auto&page=12">What is Money Laundering?</a></td>
+            <td class="tg-031e"><a href="/book_sample?page=6">What is Money Laundering?</a></td>
             </tr>
             <tr>
-            <td class="tg-031e"><a href="/pdf/web/redalert.jsp#zoom=auto&page=11">Money Laundering Facts and Figures</a></td>
+            <td class="tg-031e"><a href="/book_sample?page=15">Money Laundering Facts and Figures</a></td>
             </tr>
             <tr>
-            <td class="tg-031e"><a href="/pdf/web/redalert.jsp#zoom=auto&page=8">5 Recommendations to effectively combat Money Laundering</a></td>
+            <td class="tg-031e"><a href="/book_sample?page=19">5 Recommendations to effectively combat Money Laundering</a></td>
             </tr>
             <tr>
-            <td class="tg-031e"><a href="/pdf/web/redalert.jsp#zoom=auto&page=70">Money Laundering Risks</a></td>
+            <td class="tg-031e"><a href="/book_sample?page=28">Money Laundering Risks</a></td>
             </tr>
             <tr>
-            <td class="tg-031e"><a class="lastLink" href="/pdf/web/redalert.jsp#zoom=auto&page=342">Chronology of FI Major Enforcement Cases over the last 25 years</a></td>
+            <td class="tg-031e"><a class="lastLink" href="/book_sample?page=30">Chronology of FI Major Enforcement Cases over the last 25 years</a></td>
             </tr>
         </table>
 
