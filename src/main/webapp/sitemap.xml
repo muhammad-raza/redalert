@@ -1,43 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+    <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-<url>
-  <loc>http://www.redalert.org.uk/</loc>
-  <lastmod>2014-05-31T20:52:58+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://www.redalert.org.uk/biography</loc>
-  <lastmod>2014-05-31T20:52:58+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://www.redalert.org.uk/matthew_cooper</loc>
-  <lastmod>2014-05-31T20:52:58+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://www.redalert.org.uk/book_reviews</loc>
-  <lastmod>2014-05-31T20:52:58+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://www.redalert.org.uk/buy_or_download</loc>
-  <lastmod>2014-05-31T20:52:58+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://www.redalert.org.uk/contact_me</loc>
-  <lastmod>2014-05-31T20:52:58+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
-<url>
-  <loc>http://www.redalert.org.uk/pdf/web/redalert.jsp</loc>
-  <lastmod>2014-05-31T20:52:58+00:00</lastmod>
-  <changefreq>weekly</changefreq>
-</url>
+    <url>
+        <loc>http://www.redalert.org.uk/</loc>
+        <lastmod>2014-06-14T21:51:01+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>http://www.redalert.org.uk/biography</loc>
+        <lastmod>2014-06-14T21:51:01+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>http://www.redalert.org.uk/matthew_cooper</loc>
+        <lastmod>2014-06-14T21:51:01+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>http://www.redalert.org.uk/book_reviews</loc>
+        <lastmod>2014-06-14T21:51:01+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>http://www.redalert.org.uk/buy_or_download</loc>
+        <lastmod>2014-06-14T21:51:01+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>http://www.redalert.org.uk/contact_me</loc>
+        <lastmod>2014-06-14T21:51:01+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>http://www.redalert.org.uk/view/red_alert_sample.pdf</loc>
+        <lastmod>2014-06-14T21:51:01+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
 </urlset>
