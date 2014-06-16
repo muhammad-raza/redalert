@@ -1915,6 +1915,9 @@ html[dir='rtl'] #documentPropertiesOverlay .row > * {
   #outerContainer .visibleLargeView {
     display: inherit;
   }
+  .click_here_link{
+    font-size: 12px;
+  }
 }
 
 @media all and (max-width: 660px) {
@@ -1933,6 +1936,10 @@ html[dir='rtl'] #documentPropertiesOverlay .row > * {
   .visibleSmallView {
     display: inherit;
   }
+  .click_here_link{
+    font-size: 10px;
+  }
+
   html[dir='ltr'] #outerContainer.sidebarMoving .outerCenter,
   html[dir='ltr'] #outerContainer.sidebarOpen .outerCenter,
   html[dir='ltr'] .outerCenter {
@@ -1952,4 +1959,17 @@ html[dir='rtl'] #documentPropertiesOverlay .row > * {
   #scaleSelectContainer, #pageNumberLabel {
     display: none;
   }
+  .click_here_link{
+    font-size: 10px;
+  }
+}
+
+.click_here_link{
+    display: block;
+    font-weight: bold;
+    min-height: 25px;        
+    background-color: #F5F6CE; 
+}
+.clearfix {
+  clear: both;
 }

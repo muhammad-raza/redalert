@@ -304,6 +304,8 @@ http://sourceforge.net/adobe/cmap/wiki/License/
               </div>
             </div>
           </div>
+          <div class="clearfix"></div>
+          <div class="click_here_link"><a href="/contact_me">This is sample of book. Click here to contact the author for full version.</a></div>
         </div>
 
         <menu type="context" id="viewerContextMenu">
