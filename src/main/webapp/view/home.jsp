@@ -2,7 +2,7 @@
 
 <h2>Money Laundering Cases and Materials for Money Laundering Prevention Professionals 2014 Edition - Issue 1</h2>
     <div class="book_image">
-        <a href="/pdf/web/redalert.jsp"><img class="the_book_image" src="/images/the_book.png"></a>
+        <a href="/pdf/web/redalert.jsp#zoom=auto"><img class="the_book_image" src="/images/the_book.png"></a>
         <a class="button read_online" ontouchstart="" href="/pdf/web/redalert.jsp#zoom=auto"><span>Read Sample</span></a>        
     </div>
 
@@ -11,19 +11,19 @@
             <th class="tg-s6z2">Overview</th>
             </tr>
             <tr>
-            <td class="tg-031e"><a href="/pdf/web/redalert.jsp#zoom=auto&page=6">What is Money Laundering?</a></td>
+            <td class="tg-031e"><a href="/pdf/web/redalert.jsp#zoom=auto">What is Money Laundering?</a></td>
             </tr>
             <tr>
-            <td class="tg-031e"><a href="/pdf/web/redalert.jsp#zoom=auto&page=15">Money Laundering Facts and Figures</a></td>
+            <td class="tg-031e"><a href="/pdf/web/redalert.jsp?file=facts.pdf#zoom=auto">Money Laundering Facts and Figures</a></td>
             </tr>
             <tr>
-            <td class="tg-031e"><a href="/pdf/web/redalert.jsp#zoom=auto&page=19">5 Recommendations to effectively combat Money Laundering</a></td>
+            <td class="tg-031e"><a href="/pdf/web/redalert.jsp?file=recommendations.pdf#zoom=auto">5 Recommendations to effectively combat Money Laundering</a></td>
             </tr>
             <tr>
-            <td class="tg-031e"><a href="/pdf/web/redalert.jsp#zoom=auto&page=28">Money Laundering Risks</a></td>
+            <td class="tg-031e"><a href="/pdf/web/redalert.jsp?file=money-laundering-risks.pdf#zoom=auto">Money Laundering Risks</a></td>
             </tr>
             <tr>
-            <td class="tg-031e"><a class="lastLink" href="/pdf/web/redalert.jsp#zoom=auto&page=30">Chronology of FI Major Enforcement Cases over the last 25 years</a></td>
+            <td class="tg-031e"><a class="lastLink" href="/pdf/web/redalert.jsp?file=chronology.pdf#zoom=auto">Chronology of FI Major Enforcement Cases over the last 25 years</a></td>
             </tr>
         </table>
 

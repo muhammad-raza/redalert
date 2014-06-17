@@ -24,7 +24,7 @@
 
 'use strict';
 
-var DEFAULT_URL = 'redalert.pdf';
+var DEFAULT_URL = 'what-is-money-laundering.pdf';
 var DEFAULT_SCALE = 'auto';
 var DEFAULT_SCALE_DELTA = 1.1;
 var UNKNOWN_SCALE = 0;
