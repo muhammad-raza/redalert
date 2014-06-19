@@ -117,6 +117,14 @@ http://sourceforge.net/adobe/cmap/wiki/License/
   </head>
 
   <body tabindex="1">
+    <%           
+      
+       if (!(request.getParameter("file") !=null || (session.getAttribute("loggedIn") !=null && (Boolean)session.getAttribute( "loggedIn")))){
+      response.sendRedirect("/the_book");  
+     }
+
+    %>
+
     <div id="outerContainer" class="loadingInProgress">
 
       <div id="sidebarContainer">

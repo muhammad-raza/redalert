@@ -290,7 +290,7 @@ a.button:hover {
     width: 68%;
 }
 
-.book_image img, .links .links_container {       
+.book_image .the_book_image, .links .links_container {
     width: 100%;    
 }
 
@@ -579,6 +579,9 @@ a.lastLink{
     padding: 0;
 }
 
+.lock_image {
+    width: 18px;
+}
 
 
 
@@ -657,7 +660,7 @@ a.lastLink{
         text-align: center;
         float: none;
     }
-    .methew_image img, .book_image img {
+    .methew_image img, .book_image .the_book_image {
         width: 90%;
     }
     .john_image img {

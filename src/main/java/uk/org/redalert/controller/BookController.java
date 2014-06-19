@@ -58,6 +58,40 @@ public class BookController {
         return INDEX;
     }
 
+    @RequestMapping(value = "/the_book", method = RequestMethod.GET)
+    public String bookController(@RequestParam(value = "file", required = false) String file,
+                                 HttpSession session, ModelMap map) {
+        String param = "";
+        if (StringUtils.isNotBlank(file)){
+            param = "?file="+file+"#zoom=auto";
+        }else{
+            if (!(session.getAttribute("loggedIn") != null && (Boolean)session.getAttribute("loggedIn"))){
+                map.addAttribute(PAGE_NAME, "book_password.jsp");
+                map.addAttribute("title", "Red Alert | Secure");
+                map.addAttribute("description", "Please insert valid password to view full book or contact the author.");
+
+                return INDEX;
+            }
+        }
+        return "redirect:/pdf/web/redalert.jsp"+param;
+    }
+
+    @RequestMapping(value = "/book_password", method = RequestMethod.POST)
+    public String bookPasswordController(@RequestParam(value = "password", required = false) String password,
+                                 HttpSession session, ModelMap map) {
+
+        if (StringUtils.isBlank(password) || !password.equals("l3tm31n")){
+            map.addAttribute(PAGE_NAME, "book_password.jsp");
+            map.addAttribute("status", "error");
+            map.addAttribute("statusMessage", "Login Failed. Please try again");
+            return INDEX;
+        }else{
+            session.setAttribute("loggedIn", true);
+            return "redirect:/pdf/web/redalert.jsp";
+        }
+    }
+
+
     @RequestMapping(value = "/book_reviews", method = RequestMethod.GET)
     public String reviewsController(ModelMap map) {
         map.addAttribute(PAGE_NAME, "reviews.jsp");

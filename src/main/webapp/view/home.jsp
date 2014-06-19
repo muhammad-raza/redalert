@@ -2,8 +2,8 @@
 
 <h2>Money Laundering Cases and Materials for Money Laundering Prevention Professionals 2014 Edition - Issue 1</h2>
     <div class="book_image">
-        <a href="/pdf/web/redalert.jsp#zoom=auto"><img class="the_book_image" src="/images/the_book.png"></a>
-        <a class="button read_online" ontouchstart="" href="/pdf/web/redalert.jsp#zoom=auto"><span>Read Sample</span></a>        
+        <a href="/the_book"><img class="the_book_image" src="/images/the_book.png"></a>
+        <a class="button read_online" ontouchstart="" href="/the_book"><span><img class="lock_image" width="18px" src="/images/lock.png">&nbsp;&nbsp;Read Full Book</span></a>        
     </div>
 
         <table class="tg">
@@ -11,19 +11,19 @@
             <th class="tg-s6z2">Overview</th>
             </tr>
             <tr>
-            <td class="tg-031e"><a href="/pdf/web/redalert.jsp#zoom=auto">What is Money Laundering?</a></td>
+            <td class="tg-031e"><a href="/the_book?file=what-is-money-laundering">What is Money Laundering?</a></td>
             </tr>
             <tr>
-            <td class="tg-031e"><a href="/pdf/web/redalert.jsp?file=facts.pdf#zoom=auto">Money Laundering Facts and Figures</a></td>
+            <td class="tg-031e"><a href="/the_book?file=facts.pdf#zoom=auto">Money Laundering Facts and Figures</a></td>
             </tr>
             <tr>
-            <td class="tg-031e"><a href="/pdf/web/redalert.jsp?file=recommendations.pdf#zoom=auto">5 Recommendations to effectively combat Money Laundering</a></td>
+            <td class="tg-031e"><a href="/the_book?file=recommendations.pdf#zoom=auto">5 Recommendations to effectively combat Money Laundering</a></td>
             </tr>
             <tr>
-            <td class="tg-031e"><a href="/pdf/web/redalert.jsp?file=money-laundering-risks.pdf#zoom=auto">Money Laundering Risks</a></td>
+            <td class="tg-031e"><a href="/the_book?file=money-laundering-risks.pdf#zoom=auto">Money Laundering Risks</a></td>
             </tr>
             <tr>
-            <td class="tg-031e"><a class="lastLink" href="/pdf/web/redalert.jsp?file=chronology.pdf#zoom=auto">Chronology of FI Major Enforcement Cases over the last 25 years</a></td>
+            <td class="tg-031e"><a class="lastLink" href="/the_book?file=chronology.pdf#zoom=auto">Chronology of FI Major Enforcement Cases over the last 25 years</a></td>
             </tr>
         </table>
 
