@@ -11,19 +11,19 @@
             <th class="tg-s6z2">Overview</th>
             </tr>
             <tr>
-            <td class="tg-031e"><a href="/the_book?file=what-is-money-laundering">What is Money Laundering?</a></td>
+            <td class="tg-031e"><a href="/the_book?file=money-laundering.pdf">What is Money Laundering?</a></td>
             </tr>
             <tr>
-            <td class="tg-031e"><a href="/the_book?file=facts.pdf#zoom=auto">Money Laundering Facts and Figures</a></td>
+            <td class="tg-031e"><a href="/the_book?file=facts.pdf">Money Laundering Facts and Figures</a></td>
             </tr>
             <tr>
-            <td class="tg-031e"><a href="/the_book?file=recommendations.pdf#zoom=auto">5 Recommendations to effectively combat Money Laundering</a></td>
+            <td class="tg-031e"><a href="/the_book?file=recommendations.pdf">5 Recommendations to effectively combat Money Laundering</a></td>
             </tr>
             <tr>
-            <td class="tg-031e"><a href="/the_book?file=money-laundering-risks.pdf#zoom=auto">Money Laundering Risks</a></td>
+            <td class="tg-031e"><a href="/the_book?file=money-laundering-risks.pdf">Money Laundering Risks</a></td>
             </tr>
             <tr>
-            <td class="tg-031e"><a class="lastLink" href="/the_book?file=chronology.pdf#zoom=auto">Chronology of FI Major Enforcement Cases over the last 25 years</a></td>
+            <td class="tg-031e"><a class="lastLink" href="/the_book?file=chronology.pdf">Chronology of FI Major Enforcement Cases over the last 25 years</a></td>
             </tr>
         </table>
 
