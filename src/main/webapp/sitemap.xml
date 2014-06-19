@@ -8,37 +8,57 @@
 
     <url>
         <loc>http://www.redalert.org.uk/</loc>
-        <lastmod>2014-06-14T21:51:01+00:00</lastmod>
+        <lastmod>2014-06-19T19:18:26+00:00</lastmod>
         <changefreq>weekly</changefreq>
     </url>
     <url>
         <loc>http://www.redalert.org.uk/biography</loc>
-        <lastmod>2014-06-14T21:51:01+00:00</lastmod>
+        <lastmod>2014-06-19T19:18:26+00:00</lastmod>
         <changefreq>weekly</changefreq>
     </url>
     <url>
         <loc>http://www.redalert.org.uk/matthew_cooper</loc>
-        <lastmod>2014-06-14T21:51:01+00:00</lastmod>
+        <lastmod>2014-06-19T19:18:26+00:00</lastmod>
         <changefreq>weekly</changefreq>
     </url>
     <url>
         <loc>http://www.redalert.org.uk/book_reviews</loc>
-        <lastmod>2014-06-14T21:51:01+00:00</lastmod>
+        <lastmod>2014-06-19T19:18:26+00:00</lastmod>
         <changefreq>weekly</changefreq>
     </url>
     <url>
         <loc>http://www.redalert.org.uk/buy_or_download</loc>
-        <lastmod>2014-06-14T21:51:01+00:00</lastmod>
+        <lastmod>2014-06-19T19:18:26+00:00</lastmod>
         <changefreq>weekly</changefreq>
     </url>
     <url>
         <loc>http://www.redalert.org.uk/contact_me</loc>
-        <lastmod>2014-06-14T21:51:01+00:00</lastmod>
+        <lastmod>2014-06-19T19:18:26+00:00</lastmod>
         <changefreq>weekly</changefreq>
     </url>
     <url>
-        <loc>http://www.redalert.org.uk/view/red_alert_sample.pdf</loc>
-        <lastmod>2014-06-14T21:51:01+00:00</lastmod>
+        <loc>http://www.redalert.org.uk/the_book?file=money-laundering.pdf</loc>
+        <lastmod>2014-06-19T19:18:26+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>http://www.redalert.org.uk/the_book?file=facts.pdf</loc>
+        <lastmod>2014-06-19T19:18:26+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>http://www.redalert.org.uk/the_book?file=recommendations.pdf</loc>
+        <lastmod>2014-06-19T19:18:26+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>http://www.redalert.org.uk/the_book?file=money-laundering-risks.pdf</loc>
+        <lastmod>2014-06-19T19:18:26+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>http://www.redalert.org.uk/the_book?file=chronology.pdf</loc>
+        <lastmod>2014-06-19T19:18:26+00:00</lastmod>
         <changefreq>weekly</changefreq>
     </url>
 </urlset>
