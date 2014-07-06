@@ -32,11 +32,19 @@ public class BookController {
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String homeController(ModelMap map) {
-        List<CommentEntity> comments = commentsDAO.getAllComments();
-        map.addAttribute("comments", comments);
         map.addAttribute(PAGE_NAME, "home.jsp");
         map.addAttribute("title", "Red Alert | Money Laundering Cases & Materials");
-        map.addAttribute("description", "his Book is intended to serve as a comprehensive source of information for money laundering professionals that wish to better understand, establish or improve their money laundering, terrorist financing, fraud, sanctions, bribery and corruption prevention frameworks (hereafter referred to as money laundering).");
+        map.addAttribute("description", "This Book is intended to serve as a comprehensive source of information for money laundering professionals that wish to better understand, establish or improve their money laundering, terrorist financing, fraud, sanctions, bribery and corruption prevention frameworks (hereafter referred to as money laundering).");
+        return INDEX;
+    }
+
+    @RequestMapping(value = "/comments", method = RequestMethod.GET)
+    public String commentsController(ModelMap map) {
+        List<CommentEntity> comments = commentsDAO.getAllComments();
+        map.addAttribute("comments", comments);
+        map.addAttribute(PAGE_NAME, "comments.jsp");
+        map.addAttribute("title", "Red Alert | Reader's Comments");
+        map.addAttribute("description", "This Book has been created to encourage discussion and comment. If you have questions comments or opinions please leave it here or send me personal message.");
         return INDEX;
     }
 

@@ -78,6 +78,8 @@
                 <li><a href="/book_reviews">Book Reviews</a></li>
                 <li><a href="/buy_or_download">Buy/Download Red Alert</a></li>
                 <li><a href="/contact_me">Contact me</a></li>
+                <li><a href="/comments">Reader's Comments</a></li>
+                <li><a href="/blog">Blog</a></li>                
             </ul>
         </div>
         
@@ -98,6 +100,8 @@
                 <li><a href="/book_reviews">Book Reviews</a></li>
                 <li><a href="/buy_or_download">Buy/Download Red Alert</a></li>
                 <li><a href="/contact_me">Contact me</a></li>
+                <li><a href="/comments">Reader's Comments</a></li>
+                <li><a href="/blog">Blog</a></li>                
             </ul>
         </div>
     </div>
