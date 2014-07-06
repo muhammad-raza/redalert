@@ -48,6 +48,20 @@ public class BookController {
         return INDEX;
     }
 
+    @RequestMapping(value = "/blog", method = RequestMethod.GET)
+    public String blogController(ModelMap map) {
+        List<CommentEntity> comments = commentsDAO.getAllComments();
+        map.addAttribute("comments", comments);
+        map.addAttribute(PAGE_NAME, "blog.jsp");
+        map.addAttribute("title", "Red Alert | Reader's Comments");
+        String description = "Blog";
+        if (comments.size() > 0){
+            description = comments.get(0).getComment();
+        }
+        map.addAttribute("description", description);
+        return INDEX;
+    }
+
     @RequestMapping(value = "/biography", method = RequestMethod.GET)
     public String biographyController(ModelMap map) {
         map.addAttribute(PAGE_NAME, "biography.jsp");

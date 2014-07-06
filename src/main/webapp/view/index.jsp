@@ -72,13 +72,12 @@
         <div class="left_nav">
             <span class="close">X</span>
             <ul class="nav_list">
-                <li><a href="/">Read The Book</a></li>
                 <li><a href="/biography">About the author</a></li>
-                <li><a href="/matthew_cooper">Dedication to Matthew cooper</a></li>
+                <li><a href="/matthew_cooper">Dedication to Matthew Cooper</a></li>
                 <li><a href="/book_reviews">Book Reviews</a></li>
                 <li><a href="/buy_or_download">Buy/Download Red Alert</a></li>
-                <li><a href="/contact_me">Contact me</a></li>
                 <li><a href="/comments">Reader's Comments</a></li>
+                <li><a href="/contact_me">Contact me</a></li>                
                 <li><a href="/blog">Blog</a></li>                
             </ul>
         </div>
@@ -94,13 +93,12 @@
     <div class="mobile_left_nav">
             <span class="close">X</span>
             <ul>
-                <li><a href="/">Read The Book</a></li>
                 <li><a href="/biography">About the author</a></li>
                 <li><a href="/matthew_cooper">Dedication to Matthew cooper</a></li>
                 <li><a href="/book_reviews">Book Reviews</a></li>
                 <li><a href="/buy_or_download">Buy/Download Red Alert</a></li>
-                <li><a href="/contact_me">Contact me</a></li>
                 <li><a href="/comments">Reader's Comments</a></li>
+                <li><a href="/contact_me">Contact me</a></li>                
                 <li><a href="/blog">Blog</a></li>                
             </ul>
         </div>

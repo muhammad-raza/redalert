@@ -9,6 +9,15 @@
             <th class="tg-s6z2">Overview</th>
             </tr>
             <tr>
+            <td class="tg-031e"><a href="/the_book?file=book_introduction.pdf">Introduction</a></td>
+            </tr>
+            <tr>
+            <td class="tg-031e"><a href="/the_book?file=book_contents.pdf">Table of Contents</a></td>
+            </tr>
+            <tr>
+            <td class="tg-031e"><a href="/the_book?file=book_index.pdf">Book Index</a></td>
+            </tr>
+            <tr>
             <td class="tg-031e"><a href="/the_book?file=money-laundering.pdf">What is Money Laundering?</a></td>
             </tr>
             <tr>
