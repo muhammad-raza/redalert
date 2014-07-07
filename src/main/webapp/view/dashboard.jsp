@@ -1,6 +1,6 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 	
-<h2>Admin Dashboard</h2>
+<h2>Reader's Comments</h2>
 
 <c:forEach items="${comments}" var="comment">
     
@@ -27,3 +27,27 @@
     </div>    
 
 </c:forEach>
+
+<div class="line"></div>
+
+<h2>Blog Post</h2>
+
+
+
+<div class="blog_container">
+    <form id="commentForm" action="/ajax/comment" method="post"> 
+        
+        <div class="topic_input">
+            <input name="topic" id="topicInput" placeholder="Topic *" type="text" class="text" maxlength="25">
+        </div>
+        
+        <div class="description_input">
+            <textarea name="message" id="messageInput" class="description" placeholder="Description *">${emailContent.getMessage()}</textarea>
+            
+        </div>      
+        <div class="post_button">
+            <a id="sendCommentButton" class="button" ontouchstart="" href=""><span>Post Blog</span></a>
+        </div>  
+    </form>
+
+</div>

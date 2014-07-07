@@ -434,8 +434,8 @@ a.lastLink{
     display: inline-block;
     width: 45%;
 }
-.name_input .text, .email_input .text, .message_input .message, 
-.password_input .text, .usermame_input .text, .profession_input .text{
+.name_input .text, .email_input .text, .message_input .message, .topic_input .text,
+.password_input .text, .usermame_input .text, .profession_input .text, .description_input .description{
     -webkit-appearance: none;
     display: block;
     border: 1px solid #e0e0e0;
@@ -452,6 +452,14 @@ a.lastLink{
 .message_input{
     margin: 10px 0;
     width: 91%;    
+}
+
+.description_input {
+    margin: 10px 0;
+}
+
+.description_input .description {
+    height: 200px;
 }
 
 .message_input .message{
@@ -486,7 +494,7 @@ a.lastLink{
 .blue{
     color: blue;
 }
-.leave_comment {
+.comment {
     -moz-transition: max-height 0.5s ease;
     -o-transition: max-height 0.5s ease;
     -ms-transition: max-height 0.5s ease;

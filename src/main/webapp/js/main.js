@@ -158,6 +158,15 @@ $(function(){
 		adminFunction($(this));
 	});
 
+	function validateTopic(topic){
+    	return !!topic && topic != "";
+    }
+
+    function validateDescription(description){
+    	return !!description && description != "";
+    }
+
+
 });
 
 })(jQuery);

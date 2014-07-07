@@ -30,7 +30,7 @@
 <p>Your email address will not be published. Required fields are marked *</p>
 
 <div class="form_container">
-    <p class="status ${status}">${statusMessage}</p>
+    <p class="status ${status}"><strong>${statusMessage}</strong></p>
     <form id="commentForm" action="/ajax/comment" method="post"> 
         <div class="comment">
             <div class="name_input">

@@ -30,8 +30,11 @@
             <td class="tg-031e"><a href="/the_book?file=money-laundering-risks.pdf">Money Laundering Risks</a></td>
             </tr>
             <tr>
-            <td class="tg-031e"><a class="lastLink" href="/the_book?file=chronology.pdf">Chronology of FI Major Enforcement Cases over the last 25 years</a></td>
+            <td class="tg-031e"><a href="/the_book?file=chronology.pdf">Chronology of FI Major Enforcement Cases over the last 25 years</a></td>
             </tr>
+            <tr>
+            <td class="tg-031e"><a class="lastLink" href="/the_book?file=red_alert_supplement_first_half_2014.pdf">Red Alert Supplement - Update - 1st Half 2014</a></td>
+            </tr>            
         </table>
 
 
