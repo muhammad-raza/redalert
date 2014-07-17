@@ -52,7 +52,7 @@
     <form id="blogForm" action="/ajax/addBlog" method="post"> 
         
         <div class="topic_input">
-            <input name="topic" id="topicInput" placeholder="Topic *" type="text" class="text" maxlength="25">
+            <input name="topic" id="topicInput" placeholder="Topic *" type="text" class="text">
         </div>
         
         <div class="description_input">
