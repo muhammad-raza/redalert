@@ -500,7 +500,16 @@ a.lastLink{
     -ms-transition: max-height 0.5s ease;
     transition: max-height 0.5s ease;
     overflow: hidden;
-    border-bottom: 2px solid #f0f0f0;
+    margin: 10px 0;
+    font-weight: 300;
+    max-height:200px;
+}
+.blogTopicsContainer{
+    -moz-transition: max-height 0.5s ease;
+    -o-transition: max-height 0.5s ease;
+    -ms-transition: max-height 0.5s ease;
+    transition: max-height 0.5s ease;
+    overflow: hidden;
     margin: 10px 0;
     font-weight: 300;
     max-height:200px;
@@ -522,7 +531,7 @@ a.lastLink{
     float: left;
 }
 
-.simpleButtonDelete, .simpleButtonGreen, .simpleButtonRed{
+.simpleButtonDelete, .simpleButtonGreen, .simpleButtonRed, .simpleBlogDelete{
     border: 1px solid #e0e0e0;
     border-radius: 4px;
     padding: 5px 10px;    
@@ -538,7 +547,7 @@ a.lastLink{
     background-color: #990000;
 }
 
-.simpleButtonDelete:hover {
+.simpleButtonDelete:hover, .simpleBlogDelete:hover {
     border: 1px solid #A0A0A0;
     background: #f0f0f0;
     cursor: pointer;
@@ -591,6 +600,9 @@ a.lastLink{
     width: 18px;
 }
 
+.date{
+    margin-bottom: 20px;
+}
 
 
 

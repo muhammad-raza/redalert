@@ -6,8 +6,11 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
+import uk.org.redalert.application.Months;
+import uk.org.redalert.blogdao.BlogDAO;
 import uk.org.redalert.commentsdao.CommentsDAO;
 import uk.org.redalert.dbmapping.AdminEntity;
+import uk.org.redalert.dbmapping.BlogEntity;
 import uk.org.redalert.dbmapping.CommentEntity;
 import uk.org.redalert.email.Email;
 import uk.org.redalert.email.EmailContent;
@@ -16,9 +19,7 @@ import uk.org.redalert.admindao.AdminDAO;
 import javax.print.DocFlavor;
 import javax.servlet.http.HttpSession;
 import java.text.SimpleDateFormat;
-import java.util.Calendar;
-import java.util.List;
-import java.util.TimeZone;
+import java.util.*;
 
 @Controller
 public class BookController {
@@ -29,6 +30,8 @@ public class BookController {
     private AdminDAO adminDAO;
     @Autowired
     private CommentsDAO commentsDAO;
+    @Autowired
+    private BlogDAO blogDAO;
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String homeController(ModelMap map) {
@@ -50,17 +53,63 @@ public class BookController {
 
     @RequestMapping(value = "/blog", method = RequestMethod.GET)
     public String blogController(ModelMap map) {
-        List<CommentEntity> comments = commentsDAO.getAllComments();
-        map.addAttribute("comments", comments);
         map.addAttribute(PAGE_NAME, "blog.jsp");
-        map.addAttribute("title", "Red Alert | Reader's Comments");
-        String description = "Blog";
-        if (comments.size() > 0){
-            description = comments.get(0).getComment();
+        List<BlogEntity> blogList = blogDAO.getAllBlog();
+        if (blogList.size() > 0) {
+            BlogEntity blogEntity = blogList.get(0);
+            map.addAttribute("firstBlog", blogEntity);
+            map.addAttribute("title", "Red Alert | " + blogEntity.getTopic());
+            blogList.remove(0);
+            map.addAttribute("allBlog", blogList);
         }
-        map.addAttribute("description", description);
         return INDEX;
     }
+
+    @RequestMapping(value = "ajax/blog/{blogId}", method = RequestMethod.POST, produces = "text/plain")
+    @ResponseBody
+    public String deleteBlogController(@PathVariable("blogId") String blogId) {
+        blogDAO.deleteBlog(Integer.parseInt(blogId));
+        return "deleted";
+    }
+
+    @RequestMapping(value = "/blog/{blogId}", method = RequestMethod.GET)
+    public String blogController(@PathVariable("blogId") int blogId, ModelMap map) {
+        map.addAttribute(PAGE_NAME, "blog.jsp");
+        List<BlogEntity> blogList = blogDAO.getAllBlog();
+        if (blogList.size() > 0) {
+            Iterator<BlogEntity> iterator = blogList.iterator();
+            while (iterator.hasNext()) {
+                BlogEntity blog = iterator.next();
+                if (blog.getId() == blogId) {
+                    map.addAttribute("firstBlog", blog);
+                    map.addAttribute("title", "Red Alert | " + blog.getTopic());
+                    iterator.remove();
+                }
+            }
+            map.addAttribute("allBlog", blogList);
+        }
+        return INDEX;
+    }
+
+
+    @RequestMapping(value = "ajax/addBlog", method = RequestMethod.POST, produces = "text/plain")
+    public String addBlogController(
+            @RequestParam(value = "topic") String topic,
+            @RequestParam(value = "description") String description,
+            @RequestParam(value = "month") String month,
+            @RequestParam(value = "year") int year) {
+
+        BlogEntity blogEntity = new BlogEntity();
+        blogEntity.setTopic(topic);
+        blogEntity.setDescription(description);
+        String date = month + " " + year;
+        blogEntity.setDate(date);
+        String sortDate = year + Months.map.get(month);
+        blogEntity.setSortDate(Integer.parseInt(sortDate));
+        blogDAO.addBlog(blogEntity);
+        return INDEX;
+    }
+
 
     @RequestMapping(value = "/biography", method = RequestMethod.GET)
     public String biographyController(ModelMap map) {
@@ -84,10 +133,10 @@ public class BookController {
     public String bookController(@RequestParam(value = "file", required = false) String file,
                                  HttpSession session, ModelMap map) {
         String param = "";
-        if (StringUtils.isNotBlank(file)){
-            param = "?file="+file+"#zoom=auto";
-        }else{
-            if (!(session.getAttribute("loggedIn") != null && (Boolean)session.getAttribute("loggedIn"))){
+        if (StringUtils.isNotBlank(file)) {
+            param = "?file=" + file + "#zoom=auto";
+        } else {
+            if (!(session.getAttribute("loggedIn") != null && (Boolean) session.getAttribute("loggedIn"))) {
                 map.addAttribute(PAGE_NAME, "book_password.jsp");
                 map.addAttribute("title", "Red Alert | Secure");
                 map.addAttribute("description", "Please insert valid password to view full book or contact the author.");
@@ -95,19 +144,19 @@ public class BookController {
                 return INDEX;
             }
         }
-        return "redirect:/pdf/web/redalert.jsp"+param;
+        return "redirect:/pdf/web/redalert.jsp" + param;
     }
 
     @RequestMapping(value = "/book_password", method = RequestMethod.POST)
     public String bookPasswordController(@RequestParam(value = "password", required = false) String password,
-                                 HttpSession session, ModelMap map) {
+                                         HttpSession session, ModelMap map) {
 
-        if (StringUtils.isBlank(password) || !password.equals("l3tm31n")){
+        if (StringUtils.isBlank(password) || !password.equals("l3tm31n")) {
             map.addAttribute(PAGE_NAME, "book_password.jsp");
             map.addAttribute("status", "error");
             map.addAttribute("statusMessage", "Login Failed. Please try again");
             return INDEX;
-        }else{
+        } else {
             session.setAttribute("loggedIn", true);
             return "redirect:/pdf/web/redalert.jsp";
         }
@@ -152,16 +201,16 @@ public class BookController {
 
     @RequestMapping(value = "/email", method = RequestMethod.POST)
     public String email(
-        @RequestParam("name") String name,
-        @RequestParam("email") String email,
-        @RequestParam("message") String message,
-        RedirectAttributes redirectAttributes) {
+            @RequestParam("name") String name,
+            @RequestParam("email") String email,
+            @RequestParam("message") String message,
+            RedirectAttributes redirectAttributes) {
 
         boolean status = false;
-        EmailContent emailContent = new EmailContent(name,email, message, "Mmail");
+        EmailContent emailContent = new EmailContent(name, email, message, "Mmail");
         if (StringUtils.isNotBlank(name) && StringUtils.isNotBlank(email) &&
                 StringUtils.isNotBlank(message) && name.length() < 25 &&
-                email.length() < 40 && message.length() < 250){
+                email.length() < 40 && message.length() < 250) {
             status = new Email(emailContent).send();
         }
         emailContent.setStatus(status);
@@ -175,13 +224,13 @@ public class BookController {
             @RequestParam("password") String password,
             HttpSession session) {
         if (StringUtils.isNotBlank(username) && username.length() < 25 &&
-                StringUtils.isNotBlank(password) && password.length() < 40){
+                StringUtils.isNotBlank(password) && password.length() < 40) {
             List<AdminEntity> listAdmins = adminDAO.getAdmin(username, password);
-            if (listAdmins.size() > 0){
+            if (listAdmins.size() > 0) {
                 session.setAttribute("loggedin", true);
                 session.setAttribute("logginError", false);
                 return "redirect:/internal/dashboard";
-            }else{
+            } else {
                 session.setAttribute("logginError", true);
                 session.setAttribute("loggedin", false);
                 return "redirect:/internal/admin";
@@ -193,9 +242,9 @@ public class BookController {
 
     @RequestMapping(value = "/internal/admin", method = RequestMethod.GET)
     public String adminLogin(ModelMap map, HttpSession session) {
-        if (session.getAttribute("loggedin") != null && (Boolean)session.getAttribute("loggedin")){
+        if (session.getAttribute("loggedin") != null && (Boolean) session.getAttribute("loggedin")) {
             return "redirect:/internal/dashboard";
-        } else if(session.getAttribute("logginError") != null &&(Boolean)session.getAttribute("logginError")){
+        } else if (session.getAttribute("logginError") != null && (Boolean) session.getAttribute("logginError")) {
             map.addAttribute("statusMessage", "Error Logging in. Please try again.");
             map.addAttribute("status", "error");
         }
@@ -207,7 +256,7 @@ public class BookController {
 
     @RequestMapping(value = "/internal/dashboard", method = RequestMethod.GET)
     public String adminDashboard(ModelMap map, HttpSession session) {
-        if (session.getAttribute("loggedin") == null || (session.getAttribute("loggedin") != null && !(Boolean)session.getAttribute("loggedin"))){
+        if (session.getAttribute("loggedin") == null || (session.getAttribute("loggedin") != null && !(Boolean) session.getAttribute("loggedin"))) {
             return "redirect:/internal/admin";
         }
         List<CommentEntity> comments = commentsDAO.getAllComments();
@@ -215,22 +264,28 @@ public class BookController {
         map.addAttribute("title", "Red Alert | Admin");
         map.addAttribute("description", "Admin dashboard");
         map.addAttribute("comments", comments);
+        map.addAttribute("blog", blogDAO.getAllBlog());
+        List<Integer> years = new ArrayList<Integer>();
+        for (int i = Calendar.getInstance().get(Calendar.YEAR); i >= 1900; i--) {
+            years.add(i);
+        }
+        map.addAttribute("years", years);
         return INDEX;
     }
 
     @RequestMapping(value = "/ajax/comment", method = RequestMethod.POST, produces = "text/plain")
     @ResponseBody
     public String homeComment(@RequestParam("name") String name,
-                               @RequestParam("email") String email,
-                               @RequestParam("message") String message,
-                               ModelMap map, HttpSession session) {
+                              @RequestParam("email") String email,
+                              @RequestParam("message") String message,
+                              ModelMap map, HttpSession session) {
         CommentEntity comment = new CommentEntity();
-        if (session.getAttribute("alreadyCommented") !=null && (Boolean)session.getAttribute("alreadyCommented")){
+        if (session.getAttribute("alreadyCommented") != null && (Boolean) session.getAttribute("alreadyCommented")) {
             return "alreadyCommented";
         }
         if (StringUtils.isNotBlank(name) && StringUtils.isNotBlank(email) &&
                 StringUtils.isNotBlank(message) && name.length() < 25 &&
-                email.length() < 40 && message.length() < 250){
+                email.length() < 40 && message.length() < 250) {
             Calendar cal = Calendar.getInstance();
             SimpleDateFormat dateformat = new SimpleDateFormat("dd/MM/yyyy HH:mm z");
             String currentTime = dateformat.format(cal.getTime());
@@ -254,13 +309,13 @@ public class BookController {
     public String homeComment(@PathVariable("id") int commentId,
                               @RequestParam("action") String action,
                               HttpSession session) {
-        if (action.equalsIgnoreCase("delete")){
+        if (action.equalsIgnoreCase("delete")) {
             commentsDAO.deleteComment(commentId);
             return "deleted";
-        } else if(action.equalsIgnoreCase("allow")){
+        } else if (action.equalsIgnoreCase("allow")) {
             commentsDAO.updateComment(commentId, 1);
             return "allowed";
-        } else if(action.equalsIgnoreCase("disallow")){
+        } else if (action.equalsIgnoreCase("disallow")) {
             commentsDAO.updateComment(commentId, 0);
             return "disallowed";
         }
@@ -272,9 +327,12 @@ public class BookController {
     }
 
 
-
     public void setAdminDAO(AdminDAO adminDAO) {
         this.adminDAO = adminDAO;
+    }
+
+    public void setBlogDAO(BlogDAO blogDAO) {
+        this.blogDAO = blogDAO;
     }
 
     public void setCommentsDAO(CommentsDAO commentsDAO) {

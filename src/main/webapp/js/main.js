@@ -158,14 +158,62 @@ $(function(){
 		adminFunction($(this));
 	});
 
-	function validateTopic(topic){
-    	return !!topic && topic != "";
-    }
 
-    function validateDescription(description){
-    	return !!description && description != "";
-    }
 
+
+	function validateInput(value){
+    	return !!value && value != "";
+    }    
+
+    $('#postBlogButton').on('click', function(ev){
+    	ev.preventDefault();
+		var isValidate = true, topic = $('#topicInput')[0].value,
+		description = $('#descriptionInput')[0].value, month = $('#monthInput')[0].value,
+		year = $('#yearInput')[0].value;
+		
+		isValidate = validateInput(topic) && validateInput(description) &&
+		validateInput(month) && validateInput(year);
+		
+		if(isValidate){		
+
+			var data = $('#blogForm').serialize();			
+			// alert(data);
+		$.ajax({
+            url: '/ajax/addBlog',
+            type: 'POST',
+            data: {topic: topic, description: description, month: month, year: year},
+            success: function () {
+                alert("Thanks. Blog saved successfully !");
+            },
+            error: function () {
+                alert("Error has occured. Please try again later.");
+            }
+        });
+
+		}else{
+			$('.status').addClass('error');
+			$('.status').html('Could not post form. Some of the filds are missing !');
+		}
+	});
+    
+    
+    $('.simpleBlogDelete').on('click', function(){
+
+    	var el = $(this), blogId = el.data('blogid'), blog = el.parent();
+		$.ajax({
+            url: '/ajax/blog/'+blogId,
+            type: 'POST',
+            success: function () {
+            	$(blog).css('max-height', '0');
+            	alert("Comment Deleted");
+            },
+            error: function () {
+                alert("Error has occured. Please try again later.");
+            }
+        });
+
+
+	});
 
 });
 
