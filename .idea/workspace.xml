@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05a3812c-431a-496d-b204-7aa5c9d57806" name="Default" comment="styles added">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/files/book_contents.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/files/book_index.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/files/book_introduction.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/files/chronology.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/files/facts.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/files/money-laundering-risks.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/files/money-laundering.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/files/recommendations.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/files/red_alert_supplement_first_half_2014.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/files/redalert.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/view/home.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/view/home.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/sitemap.xml" afterPath="$PROJECT_DIR$/src/main/webapp/sitemap.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="redalert.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -94,21 +82,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="redalert.jsp" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="redalert.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/pdf/web/redalert.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="6.917808" vertical-offset="1680" max-vertical-offset="6420">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1680" max-vertical-offset="6420">
               <caret line="314" column="22" selection-start-line="314" selection-start-column="22" selection-end-line="314" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sitemap.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="sitemap.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/sitemap.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="3135">
-              <caret line="75" column="28" selection-start-line="75" selection-start-column="28" selection-end-line="75" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.8004435" vertical-offset="2684" max-vertical-offset="3135">
+              <caret line="203" column="9" selection-start-line="203" selection-start-column="9" selection-end-line="203" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -250,8 +238,8 @@
         <option value="$PROJECT_DIR$/src/main/java/uk/org/redalert/blogdao/BlogImpl.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/view/blog.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/view/dashboard.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/sitemap.xml" />
         <option value="$PROJECT_DIR$/src/main/java/uk/org/redalert/controller/BookController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/sitemap.xml" />
       </list>
     </option>
   </component>
@@ -1292,14 +1280,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/sitemap.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="630" max-vertical-offset="3135">
-          <caret line="75" column="28" selection-start-line="75" selection-start-column="28" selection-end-line="75" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/uk/org/redalert/controller/BookController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.730769" vertical-offset="2173" max-vertical-offset="5115">
@@ -1312,8 +1292,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/pdf/web/redalert.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="6.917808" vertical-offset="1680" max-vertical-offset="6420">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1680" max-vertical-offset="6420">
           <caret line="314" column="22" selection-start-line="314" selection-start-column="22" selection-end-line="314" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/sitemap.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8004435" vertical-offset="2684" max-vertical-offset="3135">
+          <caret line="203" column="9" selection-start-line="203" selection-start-column="9" selection-end-line="203" selection-end-column="9" />
           <folding />
         </state>
       </provider>
