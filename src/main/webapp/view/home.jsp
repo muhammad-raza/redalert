@@ -9,31 +9,31 @@
             <th class="tg-s6z2">Overview</th>
             </tr>
             <tr>
-            <td class="tg-031e"><a href="/the_book?file=book_introduction.pdf">Introduction</a></td>
+            <td class="tg-031e"><a href="/files/book_introduction.pdf">Introduction</a></td>
             </tr>
             <tr>
-            <td class="tg-031e"><a href="/the_book?file=book_contents.pdf">Table of Contents</a></td>
+            <td class="tg-031e"><a href="/files/book_contents.pdf">Table of Contents</a></td>
             </tr>
             <tr>
-            <td class="tg-031e"><a href="/the_book?file=book_index.pdf">Book Index</a></td>
+            <td class="tg-031e"><a href="/files/book_index.pdf">Book Index</a></td>
             </tr>
             <tr>
-            <td class="tg-031e"><a href="/the_book?file=money-laundering.pdf">What is Money Laundering?</a></td>
+            <td class="tg-031e"><a href="/files/money-laundering.pdf">What is Money Laundering?</a></td>
             </tr>
             <tr>
-            <td class="tg-031e"><a href="/the_book?file=facts.pdf">Money Laundering Facts and Figures</a></td>
+            <td class="tg-031e"><a href="/files/facts.pdf">Money Laundering Facts and Figures</a></td>
             </tr>
             <tr>
-            <td class="tg-031e"><a href="/the_book?file=recommendations.pdf">5 Recommendations to effectively combat Money Laundering</a></td>
+            <td class="tg-031e"><a href="/files/recommendations.pdf">5 Recommendations to effectively combat Money Laundering</a></td>
             </tr>
             <tr>
-            <td class="tg-031e"><a href="/the_book?file=money-laundering-risks.pdf">Money Laundering Risks</a></td>
+            <td class="tg-031e"><a href="/files/money-laundering-risks.pdf">Money Laundering Risks</a></td>
             </tr>
             <tr>
-            <td class="tg-031e"><a href="/the_book?file=chronology.pdf">Chronology of FI Major Enforcement Cases over the last 25 years</a></td>
+            <td class="tg-031e"><a href="/files/chronology.pdf">Chronology of FI Major Enforcement Cases over the last 25 years</a></td>
             </tr>
             <tr>
-            <td class="tg-031e"><a class="lastLink" href="/the_book?file=red_alert_supplement_first_half_2014.pdf">Red Alert Supplement - Update - 1st Half 2014</a></td>
+            <td class="tg-031e"><a class="lastLink" href="/files/red_alert_supplement_first_half_2014.pdf">Red Alert Supplement - Update - 1st Half 2014</a></td>
             </tr>            
         </table>
 

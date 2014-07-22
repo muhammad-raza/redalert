@@ -8,57 +8,197 @@
 
     <url>
         <loc>http://www.redalert.org.uk/</loc>
-        <lastmod>2014-06-19T19:18:26+00:00</lastmod>
+        <lastmod>2014-07-22T01:20:11+00:00</lastmod>
         <changefreq>weekly</changefreq>
     </url>
     <url>
         <loc>http://www.redalert.org.uk/biography</loc>
-        <lastmod>2014-06-19T19:18:26+00:00</lastmod>
+        <lastmod>2014-07-22T01:20:11+00:00</lastmod>
         <changefreq>weekly</changefreq>
     </url>
     <url>
         <loc>http://www.redalert.org.uk/matthew_cooper</loc>
-        <lastmod>2014-06-19T19:18:26+00:00</lastmod>
+        <lastmod>2014-07-22T01:20:11+00:00</lastmod>
         <changefreq>weekly</changefreq>
     </url>
     <url>
         <loc>http://www.redalert.org.uk/book_reviews</loc>
-        <lastmod>2014-06-19T19:18:26+00:00</lastmod>
+        <lastmod>2014-07-22T01:20:11+00:00</lastmod>
         <changefreq>weekly</changefreq>
     </url>
     <url>
         <loc>http://www.redalert.org.uk/buy_or_download</loc>
-        <lastmod>2014-06-19T19:18:26+00:00</lastmod>
+        <lastmod>2014-07-22T01:20:11+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>http://www.redalert.org.uk/comments</loc>
+        <lastmod>2014-07-22T01:20:11+00:00</lastmod>
         <changefreq>weekly</changefreq>
     </url>
     <url>
         <loc>http://www.redalert.org.uk/contact_me</loc>
-        <lastmod>2014-06-19T19:18:26+00:00</lastmod>
+        <lastmod>2014-07-22T01:20:11+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>http://www.redalert.org.uk/blog</loc>
+        <lastmod>2014-07-22T01:20:11+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>http://www.redalert.org.uk/the_book</loc>
+        <lastmod>2014-07-22T01:20:11+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>http://www.redalert.org.uk/the_book?file=book_introduction.pdf</loc>
+        <lastmod>2014-07-22T01:20:11+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>http://www.redalert.org.uk/the_book?file=book_contents.pdf</loc>
+        <lastmod>2014-07-22T01:20:11+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>http://www.redalert.org.uk/the_book?file=book_index.pdf</loc>
+        <lastmod>2014-07-22T01:20:11+00:00</lastmod>
         <changefreq>weekly</changefreq>
     </url>
     <url>
         <loc>http://www.redalert.org.uk/the_book?file=money-laundering.pdf</loc>
-        <lastmod>2014-06-19T19:18:26+00:00</lastmod>
+        <lastmod>2014-07-22T01:20:11+00:00</lastmod>
         <changefreq>weekly</changefreq>
     </url>
     <url>
         <loc>http://www.redalert.org.uk/the_book?file=facts.pdf</loc>
-        <lastmod>2014-06-19T19:18:26+00:00</lastmod>
+        <lastmod>2014-07-22T01:20:11+00:00</lastmod>
         <changefreq>weekly</changefreq>
     </url>
     <url>
         <loc>http://www.redalert.org.uk/the_book?file=recommendations.pdf</loc>
-        <lastmod>2014-06-19T19:18:26+00:00</lastmod>
+        <lastmod>2014-07-22T01:20:11+00:00</lastmod>
         <changefreq>weekly</changefreq>
     </url>
     <url>
         <loc>http://www.redalert.org.uk/the_book?file=money-laundering-risks.pdf</loc>
-        <lastmod>2014-06-19T19:18:26+00:00</lastmod>
+        <lastmod>2014-07-22T01:20:11+00:00</lastmod>
         <changefreq>weekly</changefreq>
     </url>
     <url>
         <loc>http://www.redalert.org.uk/the_book?file=chronology.pdf</loc>
-        <lastmod>2014-06-19T19:18:26+00:00</lastmod>
+        <lastmod>2014-07-22T01:20:11+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>http://www.redalert.org.uk/the_book?file=red_alert_supplement_first_half_2014.pdf</loc>
+        <lastmod>2014-07-22T01:20:11+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>http://www.redalert.org.uk/blog/21</loc>
+        <lastmod>2014-07-22T01:20:11+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>http://www.redalert.org.uk/blog/23</loc>
+        <lastmod>2014-07-22T01:20:11+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>http://www.redalert.org.uk/blog/11</loc>
+        <lastmod>2014-07-22T01:20:11+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>http://www.redalert.org.uk/blog/12</loc>
+        <lastmod>2014-07-22T01:20:11+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>http://www.redalert.org.uk/blog/18</loc>
+        <lastmod>2014-07-22T01:20:11+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>http://www.redalert.org.uk/blog/10</loc>
+        <lastmod>2014-07-22T01:20:11+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>http://www.redalert.org.uk/blog/17</loc>
+        <lastmod>2014-07-22T01:20:11+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>http://www.redalert.org.uk/blog/16</loc>
+        <lastmod>2014-07-22T01:20:11+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>http://www.redalert.org.uk/blog/9</loc>
+        <lastmod>2014-07-22T01:20:11+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>http://www.redalert.org.uk/blog/26</loc>
+        <lastmod>2014-07-22T01:20:11+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>http://www.redalert.org.uk/blog/8</loc>
+        <lastmod>2014-07-22T01:20:11+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>http://www.redalert.org.uk/blog/7</loc>
+        <lastmod>2014-07-22T01:20:11+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>http://www.redalert.org.uk/blog/6</loc>
+        <lastmod>2014-07-22T01:20:11+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>http://www.redalert.org.uk/blog/25</loc>
+        <lastmod>2014-07-22T01:20:11+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>http://www.redalert.org.uk/blog/15</loc>
+        <lastmod>2014-07-22T01:20:11+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>http://www.redalert.org.uk/blog/5</loc>
+        <lastmod>2014-07-22T01:20:11+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>http://www.redalert.org.uk/blog/14</loc>
+        <lastmod>2014-07-22T01:20:11+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>http://www.redalert.org.uk/blog/20</loc>
+        <lastmod>2014-07-22T01:20:11+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>http://www.redalert.org.uk/blog/24</loc>
+        <lastmod>2014-07-22T01:20:11+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>http://www.redalert.org.uk/blog/3</loc>
+        <lastmod>2014-07-22T01:20:11+00:00</lastmod>
+        <changefreq>weekly</changefreq>
+    </url>
+    <url>
+        <loc>http://www.redalert.org.uk/blog/19</loc>
+        <lastmod>2014-07-22T01:20:11+00:00</lastmod>
         <changefreq>weekly</changefreq>
     </url>
 </urlset>
