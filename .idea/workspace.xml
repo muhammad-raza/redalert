@@ -83,8 +83,8 @@
       <file leaf-file-name="reviews.jsp" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/view/reviews.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.63680387" vertical-offset="3922" max-vertical-offset="4350">
-              <caret line="279" column="482" selection-start-line="279" selection-start-column="482" selection-end-line="279" selection-end-column="482" />
+            <state vertical-scroll-proportion="0.56416464" vertical-offset="3937" max-vertical-offset="4350">
+              <caret line="278" column="76" selection-start-line="278" selection-start-column="76" selection-end-line="278" selection-end-column="76" />
               <folding />
             </state>
           </provider>
@@ -1136,8 +1136,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/view/reviews.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63680387" vertical-offset="3922" max-vertical-offset="4350">
-          <caret line="279" column="482" selection-start-line="279" selection-start-column="482" selection-end-line="279" selection-end-column="482" />
+        <state vertical-scroll-proportion="0.56416464" vertical-offset="3937" max-vertical-offset="4350">
+          <caret line="278" column="76" selection-start-line="278" selection-start-column="76" selection-end-line="278" selection-end-column="76" />
           <folding />
         </state>
       </provider>
