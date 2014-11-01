@@ -270,3 +270,15 @@
 	</div>
 </div>
 
+<div class="review">
+	<div><img class="comma_open" src="/images/comma_open.png">John Cusack's Red Alert is not only instructive but compelling. Given the Author's deep past experience into the space of anti money laundering, both the practitioner and businessman will find the contents of the book necessary. The organisational efficiency and practical analysis of this book is not only extremely useful but will provide new learnings. Anti money laundering compliance and oversight had become an indispensable part of today's business to all sophisticated practitioners in the financial and securities services space. Anti money laundering now, in essence covers the globe and one ignores it only T one's peril. I would highly commend this book and commend the Author for an excellent job done.<img class="comma_close" src="/images/comma_close.png"></div>
+
+	<div class="review_info">
+		<a href="http://www.parliament.uk/biographies/lords/lord-sassoon/4146"><img class="review_img" src="../images/people/zia_mody.JPG"></a>
+		<div class="name_info">
+			<a href="http://www.parliament.uk/biographies/lords/lord-sassoon/4146">Zia Mody</a>
+			<div>Zia Mody is one of India's foremost corporate attorneys. She co-founded AZB & Partners, one of India's leading corporate law firms, and is senior partner at its Mumbai offices. Zia has been consistently ranked by renowned international business law journals as one of India's and Asia's best mergers and acquisitions lawyers, most powerful CEOs and commercial arbitration specialists. She was a vice president of the London Court of International Arbitration (2009-13) and is a director of the London Court of International Arbitration, India. She has also been a member of the World Bank Administrative Tribunal (2007-12). She is on several government committees on financial reforms and corporate governance. Zia read law at University of Cambridge and Harvard Law School, and is a member of the New York State Bar. She is the daughter of legal luminary Soli J. Sorabjee and author of 10 Judgements that changed India.</div>
+		</div>
+	</div>
+</div>
+
